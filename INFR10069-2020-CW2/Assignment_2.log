@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  3 NOV 2020 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  3 NOV 2020 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -851,29 +851,60 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<images/q11.png, id=131, 560.0925pt x 94.3525pt>
+<images/q11.png, id=55, 560.0925pt x 94.3525pt>
 File: images/q11.png Graphic file (type png)
 <use images/q11.png>
 Package pdftex.def Info: images/q11.png  used on input line 92.
 (pdftex.def)             Requested size: 423.94617pt x 71.42068pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 107.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
  <./images/q11.png>]
-<images/q12.png, id=143, 1114.1625pt x 1227.58624pt>
+<images/q12.png, id=68, 1114.1625pt x 1227.58624pt>
 File: images/q12.png Graphic file (type png)
 <use images/q12.png>
 Package pdftex.def Info: images/q12.png  used on input line 113.
 (pdftex.def)             Requested size: 423.94617pt x 467.10576pt.
- [2
+
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 126.
+
+[2
 
  <./images/q12.png>]
+<images/q13.png, id=76, 568.1225pt x 42.1575pt>
+File: images/q13.png Graphic file (type png)
+<use images/q13.png>
+Package pdftex.def Info: images/q13.png  used on input line 131.
+(pdftex.def)             Requested size: 423.94617pt x 31.45978pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 143.
+
 [3
 
-] [4
+ <./images/q13.png>]
+<images/q14.png, id=82, 390.45876pt x 294.09875pt>
+File: images/q14.png Graphic file (type png)
+<use images/q14.png>
+Package pdftex.def Info: images/q14.png  used on input line 147.
+(pdftex.def)             Requested size: 423.94617pt x 319.33617pt.
 
-] [5
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 161.
+
+[4
+
+ <./images/q14.png>]
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 182.
+
+[5
 
 ]
 
@@ -883,6 +914,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 182.
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 200.
 
 [6
 
@@ -922,29 +956,78 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 200.
 
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 221.
+
 [7
-
-] [8
-
-] [9
-
-
-] [10
-
-] [11
-
-] [12
-
-] [13
 
 ]
 
+LaTeX Warning: Reference `Q1.pca.variance' on page 8 undefined on input line 22
+1.
+
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 241.
+
+[8
+
+]
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 286.
+
+[9
+
+
+]
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 306.
+
+[10
+
+]
+
+LaTeX Warning: Reference `Q2.1' on page 11 undefined on input line 306.
+
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 328.
+
+[11
+
+]
+
+LaTeX Warning: Reference `Q2.2' on page 12 undefined on input line 328.
+
+
+LaTeX Warning: Reference `Q2.3' on page 12 undefined on input line 328.
+
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 351.
+
+[12
+
+]
+
+LaTeX Warning: Reference `Q2.2' on page 13 undefined on input line 351.
+
+
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 371.
+
+[13
+
+]
+
+LaTeX Warning: Reference `Q2.5' on page 14 undefined on input line 371.
+
+
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 371.
+
+
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 393.
 
 [14
 
@@ -963,17 +1046,45 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 416.
 
+
+LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 438.
+
 [15
 
 
-] [16
+]
 
-] [17
+LaTeX Warning: Reference `Q3.1' on page 16 undefined on input line 438.
 
-] [18
 
-] 
+LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 457.
+
+[16
+
+]
+
+LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 477.
+
+[17
+
+]
+
+LaTeX Warning: Reference `Q3.3' on page 18 undefined on input line 477.
+
+
+LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 498.
+
+[18
+
+]
+
+Package lastpage Warning: Rerun to get the references right on input line 516.
+
+
 AED: lastpage setting LastPage
+
+LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 516.
+
 [19
 
 ]
@@ -982,30 +1093,44 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 516.
  (./Assignment_2.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 516.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 516.
-Package rerunfilecheck Info: File `Assignment_2.out' has not changed.
-(rerunfilecheck)             Checksum: 0CA0C058FCD260BE73FB1CEE48B4EF8F;5172.
+
+
+Package rerunfilecheck Warning: File `Assignment_2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Assignment_2.out':
+(rerunfilecheck)             Before: 1D82B23B17820773D7AD5912917F473E;599
+(rerunfilecheck)             After:  8124EAD6C3C73F1545E344360D46DAE8;5164.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 24180 strings out of 483183
- 488544 string characters out of 5966292
- 780788 words of memory out of 5000000
- 38692 multiletter control sequences out of 15000+600000
- 543373 words of font info for 52 fonts, out of 8000000 for 9000
+ 24175 strings out of 483183
+ 488467 string characters out of 5966292
+ 777421 words of memory out of 5000000
+ 38684 multiletter control sequences out of 15000+600000
+ 544156 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  67i,11n,105p,903b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.6
-00pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt120
-0.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
+ </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.6
+00pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti109
+5.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt
 1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cbx1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecbx1728.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-12.pfb>
-Output written on Assignment_2.pdf (19 pages, 236186 bytes).
+crm1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecbx1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecbx1728.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb>
+Output written on Assignment_2.pdf (19 pages, 254189 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
+ 429 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
  42 named destinations out of 1000 (max. 500000)
- 343 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 
