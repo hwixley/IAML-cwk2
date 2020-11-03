@@ -184,8 +184,29 @@
 
      
 
-      \begin{answerbox}{25em}
-         Your Answer Here
+      \begin{answerbox}{28em}
+        \begin{center}
+        \large{\textbf{A table to show the RMSE between the original and the}}\\
+        \large{\textbf{reconstructed version of the first sample for every}}\\
+        \large{\textbf{class with varying numbers of PCA components (K)}} \\
+        \vspace{0.3cm}
+        \normalsize{*Each class sample is reconstructed by reducing the sample to K dimensions and then is transformed back to the original number of dimensions, this is all done via the sklearn PCA implementation.}\\
+        \vspace{0.5cm}
+        \begin{tabular}{ |c|c|c|c|c|c| } \hline
+            \textbf{RMSE} & K = 5 & K = 20 & K = 50 & K = 200 \\ \hline
+            Class = 0 & 0.2561 & 0.15 & 0.1272 & 0.0593 \\
+            Class = 1 & 0.198 & 0.1405 & 0.0946 & 0.0356 \\
+            Class = 2 & 0.1987 & 0.1457 & 0.1242 & 0.0816 \\
+            Class = 3 & 0.1457 & 0.1073 & 0.0835 & 0.056 \\
+            Class = 4 & 0.1182 & 0.1026 & 0.884 & 0.0452 \\
+            Class = 5 & 0.1811 & 0.1584 & 0.1422 & 0.0903 \\
+            Class = 6 & 0.1295 & 0.0959 & 0.0729 & 0.0458 \\
+            Class = 7 & 0.1656 & 0.1278 & 0.1067 & 0.0641 \\
+            Class = 8 & 0.2234 & 0.1449 & 0.1238 & 0.091 \\
+            Class = 9 & 0.1835 & 0.1513 & 0.1228 & 0.072 \\
+            \hline
+        \end{tabular}
+        \end{center}
       \end{answerbox}
   
 
