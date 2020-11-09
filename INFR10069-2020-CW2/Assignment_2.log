@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  9 NOV 2020 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  9 NOV 2020 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1041,28 +1041,55 @@ Package pdftex.def Info: images/q31.png  used on input line 452.
 
  <./images/q31.png>] [16
 
-] [17
+]
+<images/q33.png, id=242, 454.69875pt x 252.945pt>
+File: images/q33.png Graphic file (type png)
+<use images/q33.png>
+Package pdftex.def Info: images/q33.png  used on input line 497.
+(pdftex.def)             Requested size: 423.94617pt x 235.84238pt.
 
-] [18
+Overfull \hbox (2.415pt too wide) in paragraph at lines 495--503
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--503
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--503
+
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 495--503
+\T1/cmr/m/n/12 From this we can de-duce that Dutch and Span-ish have the most s
+im-i-lar
+ []
+
+[17
+
+ <./images/q33.png>] [18
 
 ] 
 AED: lastpage setting LastPage
 [19
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 548.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 548.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 555.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 555.
  (./Assignment_2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 548.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 548.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 555.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 555.
 Package rerunfilecheck Info: File `Assignment_2.out' has not changed.
 (rerunfilecheck)             Checksum: 0CA0C058FCD260BE73FB1CEE48B4EF8F;5172.
  ) 
 Here is how much of TeX's memory you used:
- 24261 strings out of 483183
- 489786 string characters out of 5966292
+ 24267 strings out of 483183
+ 489882 string characters out of 5966292
  785788 words of memory out of 5000000
- 38757 multiletter control sequences out of 15000+600000
+ 38762 multiletter control sequences out of 15000+600000
  549041 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  67i,11n,105p,903b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1080,10 +1107,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Assignment_2.pdf (19 pages, 671238 bytes).
+Output written on Assignment_2.pdf (19 pages, 686218 bytes).
 PDF statistics:
- 567 PDF objects out of 1000 (max. 8388607)
+ 573 PDF objects out of 1000 (max. 8388607)
  242 compressed objects within 3 object streams
  42 named destinations out of 1000 (max. 500000)
- 393 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 398 words of extra memory for PDF output out of 10000 (max. 10000000)
 
