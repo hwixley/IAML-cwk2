@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  10 NOV 2020 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  10 NOV 2020 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1040,15 +1040,19 @@ Package pdftex.def Info: images/q31.png  used on input line 452.
 
 
  <./images/q31.png>]
-<images/q32.png, id=238, 401.5pt x 294.09875pt>
+<images/q32.png, id=238, 624.3325pt x 636.3775pt>
 File: images/q32.png Graphic file (type png)
 <use images/q32.png>
 Package pdftex.def Info: images/q32.png  used on input line 475.
-(pdftex.def)             Requested size: 423.94617pt x 310.56294pt.
+(pdftex.def)             Requested size: 423.94617pt x 432.12894pt.
  [16
 
- <./images/q32.png>]
-<images/q33.png, id=244, 454.69875pt x 252.945pt>
+]
+Overfull \vbox (16.36768pt too high) has occurred while \output is active []
+
+
+[17 <./images/q32.png>]
+<images/q33.png, id=248, 454.69875pt x 252.945pt>
 File: images/q33.png Graphic file (type png)
 <use images/q33.png>
 Package pdftex.def Info: images/q33.png  used on input line 497.
@@ -1068,20 +1072,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 495--503
 
  []
 
-[17
+[18
 
  <./images/q33.png>]
-<images/q34ward.png, id=251, 367.3725pt x 262.9825pt>
+<images/q34ward.png, id=255, 367.3725pt x 262.9825pt>
 File: images/q34ward.png Graphic file (type png)
 <use images/q34ward.png>
 Package pdftex.def Info: images/q34ward.png  used on input line 522.
 (pdftex.def)             Requested size: 275.56241pt x 197.27249pt.
-<images/q34single.png, id=252, 376.40625pt x 262.9825pt>
+<images/q34single.png, id=256, 376.40625pt x 262.9825pt>
 File: images/q34single.png Graphic file (type png)
 <use images/q34single.png>
 Package pdftex.def Info: images/q34single.png  used on input line 523.
 (pdftex.def)             Requested size: 275.56241pt x 192.54141pt.
-<images/q34complete.png, id=253, 367.3725pt x 262.9825pt>
+<images/q34complete.png, id=257, 367.3725pt x 262.9825pt>
 File: images/q34complete.png Graphic file (type png)
 <use images/q34complete.png>
 Package pdftex.def Info: images/q34complete.png  used on input line 524.
@@ -1096,16 +1100,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 522--525
 []
  []
 
-[18
+[19
 
 ]
 Overfull \vbox (10.86194pt too high) has occurred while \output is active []
 
 
-[19 <./images/q34ward.png> <./images/q34single.png> <./images/q34complete.png>]
+[20 <./images/q34ward.png> <./images/q34single.png> <./images/q34complete.png>]
 
 AED: lastpage setting LastPage
-[20
+[21
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 557.
@@ -1115,10 +1119,14 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 557.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 557.
 Package rerunfilecheck Info: File `Assignment_2.out' has not changed.
 (rerunfilecheck)             Checksum: 0CA0C058FCD260BE73FB1CEE48B4EF8F;5172.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 24293 strings out of 483183
- 490400 string characters out of 5966292
+ 24294 strings out of 483183
+ 490407 string characters out of 5966292
  785788 words of memory out of 5000000
  38783 multiletter control sequences out of 15000+600000
  549041 words of font info for 68 fonts, out of 8000000 for 9000
@@ -1138,10 +1146,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Assignment_2.pdf (20 pages, 720312 bytes).
+Output written on Assignment_2.pdf (21 pages, 733550 bytes).
 PDF statistics:
- 586 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 249 compressed objects within 3 object streams
+ 44 named destinations out of 1000 (max. 500000)
  418 words of extra memory for PDF output out of 10000 (max. 10000000)
 
