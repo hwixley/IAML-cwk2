@@ -110,8 +110,13 @@
 
 
   \begin{answerbox}{52em}
-    \includegraphics[width=1\textwidth]{images/q12.png}
-    Explain your findings briefly...
+    \includegraphics[width=0.8\textwidth]{images/q12.png}
+    \footnotesize{
+    There is an interesting trend amongst the closest and furthest samples for each given class in the dataset. Notice that all the closest samples are a subtle gray, and in contrast all the furthest samples are very dark (almost black) or very light (almost white). We can deduce that this is due to the fact that the intensely dark/light colour pixels magnify the difference between corresponding pixel values in different samples.\\
+\\
+    This is a very important observation as it highlights the significance of colour intensity when calculating the similarity between different samples. This colour intensity could ultimately skew the performance of our classifier when predicting the type of clothing for uniquely dark/light samples. This is especially problematic if a given class (piece of clothing) is more likely to be dark/light as this will make it more likely to classify dark/light samples from other classes.\\
+\\
+    To prevent this issue, given that we are classifying the type of clothing and not the colour, we could either use a method specifically for classifying shapes (segmentation) or we could normalize the colour intensity of samples upon input (normalize the values of the pixels to be within a certain range).}
   \end{answerbox}
 
 
