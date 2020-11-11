@@ -161,9 +161,11 @@
      } \label{Q1.plot.pca.variance}
    
 
-      \begin{answerbox}{50em}
+      \begin{answerbox}{52em}
          \includegraphics[width=1\textwidth]{images/q14.png}
-        Given that the explained variance ratio for a given principal component represents the variance of that principal component divided by the total variance. We can see that the results of this graph showing the relationship between the cumulative explained ratio and the number of principal components (K) are as expected.
+        Given that the explained variance ratio for a given principal component represents the variance of that principal component divided by the total variance, we can see that the results of this graph showing the relationship between the cumulative explained ratio and the number of principal components (K) are as expected.\\
+\\
+        Although PCA chooses dimensions with maximum variance, as we increase the number of dimensions (K) we automatically increase the number of variances (which have been maximised by PCA) we must summate. We also know that the total variance is fixed throughout all different values of K so the value of all cumulative variance ratios are purely dependent on ther respective explained variance ratios. Thereby, it is evident as illustrated by the plot that the number of principal components (K) is directly proportional to the cumulative explained ratio in a hyperbolic fashion.
       \end{answerbox}
   
 
