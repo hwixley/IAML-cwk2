@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  12 NOV 2020 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  12 NOV 2020 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1118,22 +1118,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 528--536
 [17
 
  <./images/q33.png>]
-<images/q34ward.png, id=252, 803.0pt x 743.77875pt>
+<images/q34ward.png, id=252, 803.0pt x 765.86125pt>
 File: images/q34ward.png Graphic file (type png)
 <use images/q34ward.png>
 Package pdftex.def Info: images/q34ward.png  used on input line 555.
-(pdftex.def)             Requested size: 423.94617pt x 392.69142pt.
-<images/q34single.png, id=253, 803.0pt x 743.77875pt>
+(pdftex.def)             Requested size: 211.97308pt x 202.1693pt.
+<images/q34single.png, id=253, 803.0pt x 765.86125pt>
 File: images/q34single.png Graphic file (type png)
 <use images/q34single.png>
 Package pdftex.def Info: images/q34single.png  used on input line 556.
-(pdftex.def)             Requested size: 423.94617pt x 392.69142pt.
-<images/q34complete.png, id=254, 803.0pt x 743.77875pt>
+(pdftex.def)             Requested size: 211.97308pt x 202.1693pt.
+<images/q34complete.png, id=254, 810.02625pt x 765.86125pt>
 File: images/q34complete.png Graphic file (type png)
 <use images/q34complete.png>
 Package pdftex.def Info: images/q34complete.png  used on input line 557.
-(pdftex.def)             Requested size: 423.94617pt x 392.69142pt.
- [18
+(pdftex.def)             Requested size: 211.97308pt x 200.41638pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 555--558
+[][] []
+ []
+
+[18
 
 ]
 Overfull \vbox (10.86194pt too high) has occurred while \output is active []
@@ -1145,11 +1150,11 @@ AED: lastpage setting LastPage
 [20
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 590.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 590.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 591.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 591.
  (./Assignment_2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 590.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 590.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 591.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 591.
 Package rerunfilecheck Info: File `Assignment_2.out' has not changed.
 (rerunfilecheck)             Checksum: 9A8F2E16C4DF09FDD6D28B1251A504FB;5345.
  ) 
@@ -1175,7 +1180,7 @@ cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
 12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Assignment_2.pdf (20 pages, 1245755 bytes).
+Output written on Assignment_2.pdf (20 pages, 1263282 bytes).
 PDF statistics:
  637 PDF objects out of 1000 (max. 8388607)
  247 compressed objects within 3 object streams
