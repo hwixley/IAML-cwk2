@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  12 NOV 2020 18:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  12 NOV 2020 20:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,10 +1027,16 @@ Package pdftex.def Info: images/q23.png  used on input line 362.
 (pdftex.def)             Requested size: 423.94617pt x 313.99303pt.
  [11
 
- <./images/q23.png>] [12
+ <./images/q23.png>]
+<images/q24.png, id=212, 390.45876pt x 298.11375pt>
+File: images/q24.png Graphic file (type png)
+<use images/q24.png>
+Package pdftex.def Info: images/q24.png  used on input line 383.
+(pdftex.def)             Requested size: 423.94617pt x 323.69571pt.
+ [12
 
-]
-<images/q25.png, id=217, 626.34pt x 661.47125pt>
+ <./images/q24.png>]
+<images/q25.png, id=219, 626.34pt x 661.47125pt>
 File: images/q25.png Graphic file (type png)
 <use images/q25.png>
 Package pdftex.def Info: images/q25.png  used on input line 409.
@@ -1078,7 +1084,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 479.
 
-<images/q31.png, id=233, 816.04875pt x 538.01pt>
+<images/q31.png, id=235, 816.04875pt x 538.01pt>
 File: images/q31.png Graphic file (type png)
 <use images/q31.png>
 Package pdftex.def Info: images/q31.png  used on input line 483.
@@ -1087,7 +1093,7 @@ Package pdftex.def Info: images/q31.png  used on input line 483.
 
 
  <./images/q31.png>]
-<images/q32.png, id=239, 624.3325pt x 636.3775pt>
+<images/q32.png, id=241, 624.3325pt x 636.3775pt>
 File: images/q32.png Graphic file (type png)
 <use images/q32.png>
 Package pdftex.def Info: images/q32.png  used on input line 506.
@@ -1100,7 +1106,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 506--510
 [16
 
  <./images/q32.png>]
-<images/q33.png, id=245, 604.2575pt x 416.55624pt>
+<images/q33.png, id=247, 604.2575pt x 416.55624pt>
 File: images/q33.png Graphic file (type png)
 <use images/q33.png>
 Package pdftex.def Info: images/q33.png  used on input line 531.
@@ -1123,7 +1129,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 529--537
 [17
 
  <./images/q33.png>]
-<images/q34.png, id=252, 608.2725pt x 710.655pt>
+<images/q34.png, id=254, 608.2725pt x 710.655pt>
 File: images/q34.png Graphic file (type png)
 <use images/q34.png>
 Package pdftex.def Info: images/q34.png  used on input line 556.
@@ -1148,10 +1154,10 @@ Package rerunfilecheck Info: File `Assignment_2.out' has not changed.
 (rerunfilecheck)             Checksum: 9A8F2E16C4DF09FDD6D28B1251A504FB;5345.
  ) 
 Here is how much of TeX's memory you used:
- 24283 strings out of 483183
- 490121 string characters out of 5966292
+ 24289 strings out of 483183
+ 490217 string characters out of 5966292
  785970 words of memory out of 5000000
- 38774 multiletter control sequences out of 15000+600000
+ 38779 multiletter control sequences out of 15000+600000
  549804 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  67i,11n,105p,903b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1169,10 +1175,10 @@ cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
 12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Assignment_2.pdf (20 pages, 1187959 bytes).
+Output written on Assignment_2.pdf (20 pages, 1199318 bytes).
 PDF statistics:
- 633 PDF objects out of 1000 (max. 8388607)
+ 635 PDF objects out of 1000 (max. 8388607)
  247 compressed objects within 3 object streams
  43 named destinations out of 1000 (max. 500000)
- 408 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
