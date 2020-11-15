@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  15 NOV 2020 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  15 NOV 2020 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1193,15 +1193,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 658.
  (./Assignment_2.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 658.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 658.
-
-
-Package rerunfilecheck Warning: File `Assignment_2.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Assignment_2.out':
-(rerunfilecheck)             Before: 65B75ED6D981FE94E48DAB21C470A356;5338
-(rerunfilecheck)             After:  9A8F2E16C4DF09FDD6D28B1251A504FB;5345.
+Package rerunfilecheck Info: File `Assignment_2.out' has not changed.
+(rerunfilecheck)             Checksum: 9A8F2E16C4DF09FDD6D28B1251A504FB;5345.
  ) 
 Here is how much of TeX's memory you used:
  24305 strings out of 483183
@@ -1234,7 +1227,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb>
-Output written on Assignment_2.pdf (19 pages, 1339848 bytes).
+Output written on Assignment_2.pdf (19 pages, 1340008 bytes).
 PDF statistics:
  768 PDF objects out of 1000 (max. 8388607)
  272 compressed objects within 3 object streams
