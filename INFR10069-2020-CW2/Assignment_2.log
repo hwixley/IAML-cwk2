@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  15 NOV 2020 13:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  15 NOV 2020 13:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,25 +854,25 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 <images/q11.png, id=131, 560.0925pt x 94.3525pt>
 File: images/q11.png Graphic file (type png)
 <use images/q11.png>
-Package pdftex.def Info: images/q11.png  used on input line 92.
+Package pdftex.def Info: images/q11.png  used on input line 95.
 (pdftex.def)             Requested size: 423.94617pt x 71.42068pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
  <./images/q11.png>]
-<images/q12.png, id=143, 1108.14pt x 1221.56375pt>
+<images/q12.png, id=144, 1108.14pt x 1221.56375pt>
 File: images/q12.png Graphic file (type png)
 <use images/q12.png>
-Package pdftex.def Info: images/q12.png  used on input line 117.
+Package pdftex.def Info: images/q12.png  used on input line 120.
 (pdftex.def)             Requested size: 339.15822pt x 373.87186pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--125
+Underfull \hbox (badness 10000) in paragraph at lines 123--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--125
+Underfull \hbox (badness 10000) in paragraph at lines 123--128
 
  []
 
@@ -883,35 +883,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--125
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 166.
+(hyperref)                removing `math shift' on input line 169.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 166.
+(hyperref)                removing `math shift' on input line 169.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 166.
+(hyperref)                removing `math shift' on input line 169.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\le' on input line 166.
+(hyperref)                removing `\le' on input line 169.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\le' on input line 166.
+(hyperref)                removing `\le' on input line 169.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 166.
+(hyperref)                removing `math shift' on input line 169.
 
 <images/q14.png, id=157, 714.67pt x 636.3775pt>
 File: images/q14.png Graphic file (type png)
 <use images/q14.png>
-Package pdftex.def Info: images/q14.png  used on input line 170.
+Package pdftex.def Info: images/q14.png  used on input line 173.
 (pdftex.def)             Requested size: 423.94617pt x 377.50835pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--174
+Underfull \hbox (badness 10000) in paragraph at lines 173--177
 
  []
 
@@ -921,66 +921,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--174
 <images/q151.png, id=166, 1025.8325pt x 213.79875pt>
 File: images/q151.png Graphic file (type png)
 <use images/q151.png>
-Package pdftex.def Info: images/q151.png  used on input line 194.
+Package pdftex.def Info: images/q151.png  used on input line 197.
 (pdftex.def)             Requested size: 423.94617pt x 88.35617pt.
 <images/q152.png, id=167, 1023.825pt x 214.8025pt>
 File: images/q152.png Graphic file (type png)
 <use images/q152.png>
-Package pdftex.def Info: images/q152.png  used on input line 195.
+Package pdftex.def Info: images/q152.png  used on input line 198.
 (pdftex.def)             Requested size: 423.94617pt x 88.94472pt.
  [5
 
  <./images/q151.png> <./images/q152.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 216.
+(hyperref)                removing `math shift' on input line 219.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 216.
+(hyperref)                removing `math shift' on input line 219.
 
 [6
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 255.
+(hyperref)                removing `math shift' on input line 258.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 255.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern 3.26212pt
-(hyperref)                removed on input line 255.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 255.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 258.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 3.26212pt
-(hyperref)                removed on input line 255.
+(hyperref)                removed on input line 258.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 255.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 258.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 3.26212pt
-(hyperref)                removed on input line 255.
+(hyperref)                removed on input line 258.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 255.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 258.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 3.26212pt
+(hyperref)                removed on input line 258.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 258.
 
 <images/q17.png, id=176, 919.435pt x 1029.8475pt>
 File: images/q17.png Graphic file (type png)
 <use images/q17.png>
-Package pdftex.def Info: images/q17.png  used on input line 265.
+Package pdftex.def Info: images/q17.png  used on input line 268.
 (pdftex.def)             Requested size: 339.15822pt x 379.89047pt.
 [7
 
@@ -988,10 +988,10 @@ Package pdftex.def Info: images/q17.png  used on input line 265.
 <images/q18.png, id=184, 608.2725pt x 636.3775pt>
 File: images/q18.png Graphic file (type png)
 <use images/q18.png>
-Package pdftex.def Info: images/q18.png  used on input line 289.
+Package pdftex.def Info: images/q18.png  used on input line 292.
 (pdftex.def)             Requested size: 423.94617pt x 443.54828pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--291
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
 
  []
 
@@ -1001,7 +1001,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--291
 <images/q21.png, id=191, 713.66624pt x 685.56125pt>
 File: images/q21.png Graphic file (type png)
 <use images/q21.png>
-Package pdftex.def Info: images/q21.png  used on input line 338.
+Package pdftex.def Info: images/q21.png  used on input line 341.
 (pdftex.def)             Requested size: 423.94617pt x 407.24974pt.
  [9
 
@@ -1010,7 +1010,7 @@ Package pdftex.def Info: images/q21.png  used on input line 338.
 <images/q22.png, id=197, 715.67375pt x 684.5575pt>
 File: images/q22.png Graphic file (type png)
 <use images/q22.png>
-Package pdftex.def Info: images/q22.png  used on input line 365.
+Package pdftex.def Info: images/q22.png  used on input line 368.
 (pdftex.def)             Requested size: 423.94617pt x 405.51491pt.
  [10
 
@@ -1018,7 +1018,7 @@ Package pdftex.def Info: images/q22.png  used on input line 365.
 <images/q23.png, id=204, 495.8525pt x 415.5525pt>
 File: images/q23.png Graphic file (type png)
 <use images/q23.png>
-Package pdftex.def Info: images/q23.png  used on input line 386.
+Package pdftex.def Info: images/q23.png  used on input line 389.
 (pdftex.def)             Requested size: 423.94617pt x 355.29474pt.
  [11
 
@@ -1026,7 +1026,7 @@ Package pdftex.def Info: images/q23.png  used on input line 386.
 <images/q24.png, id=212, 495.8525pt x 415.5525pt>
 File: images/q24.png Graphic file (type png)
 <use images/q24.png>
-Package pdftex.def Info: images/q24.png  used on input line 407.
+Package pdftex.def Info: images/q24.png  used on input line 410.
 (pdftex.def)             Requested size: 423.94617pt x 355.29474pt.
  [12
 
@@ -1034,15 +1034,15 @@ Package pdftex.def Info: images/q24.png  used on input line 407.
 <images/q25.png, id=219, 626.34pt x 661.47125pt>
 File: images/q25.png Graphic file (type png)
 <use images/q25.png>
-Package pdftex.def Info: images/q25.png  used on input line 433.
+Package pdftex.def Info: images/q25.png  used on input line 436.
 (pdftex.def)             Requested size: 423.94617pt x 447.73549pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--439
+Underfull \hbox (badness 10000) in paragraph at lines 436--442
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--439
+Underfull \hbox (badness 10000) in paragraph at lines 436--442
 
  []
 
@@ -1051,21 +1051,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 433--439
  <./images/q25.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 452.
+(hyperref)                removing `math shift' on input line 455.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 452.
+(hyperref)                removing `math shift' on input line 455.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--465
+Underfull \hbox (badness 10000) in paragraph at lines 461--468
 
  []
 
 [14
 
 ]
-Overfull \hbox (34.33551pt too wide) in paragraph at lines 503--503
+Overfull \hbox (34.33551pt too wide) in paragraph at lines 506--506
 |\T1/cmr/bx/n/12 3.1 \T1/cmr/m/n/12 (3 points) Ap-ply k-means clus-ter-ing on \
 T1/cmtt/m/n/12 Xtrn \T1/cmr/m/n/12 for $\OML/cmm/m/it/12 k \OT1/cmr/m/n/12 = 22
 $\T1/cmr/m/n/12 , where we use [][]sklearn.cluster.KMeans[][]
@@ -1073,16 +1073,16 @@ $\T1/cmr/m/n/12 , where we use [][]sklearn.cluster.KMeans[][]
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 503.
+(hyperref)                removing `math shift' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 503.
+(hyperref)                removing `math shift' on input line 506.
 
 <images/q31.png, id=235, 816.04875pt x 538.01pt>
 File: images/q31.png Graphic file (type png)
 <use images/q31.png>
-Package pdftex.def Info: images/q31.png  used on input line 507.
+Package pdftex.def Info: images/q31.png  used on input line 512.
 (pdftex.def)             Requested size: 423.94617pt x 279.5041pt.
 [15
 
@@ -1091,10 +1091,10 @@ Package pdftex.def Info: images/q31.png  used on input line 507.
 <images/q32.png, id=241, 624.3325pt x 636.3775pt>
 File: images/q32.png Graphic file (type png)
 <use images/q32.png>
-Package pdftex.def Info: images/q32.png  used on input line 530.
+Package pdftex.def Info: images/q32.png  used on input line 535.
 (pdftex.def)             Requested size: 423.94617pt x 432.12894pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--534
+Underfull \hbox (badness 10000) in paragraph at lines 535--539
 
  []
 
@@ -1104,15 +1104,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 530--534
 <images/q33.png, id=247, 604.2575pt x 453.695pt>
 File: images/q33.png Graphic file (type png)
 <use images/q33.png>
-Package pdftex.def Info: images/q33.png  used on input line 553.
+Package pdftex.def Info: images/q33.png  used on input line 558.
 (pdftex.def)             Requested size: 423.94617pt x 318.31123pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--559
+Underfull \hbox (badness 10000) in paragraph at lines 558--564
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--559
+Underfull \hbox (badness 10000) in paragraph at lines 558--564
 
  []
 
@@ -1122,7 +1122,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 553--559
 <images/q34.png, id=254, 608.2725pt x 710.655pt>
 File: images/q34.png Graphic file (type png)
 <use images/q34.png>
-Package pdftex.def Info: images/q34.png  used on input line 579.
+Package pdftex.def Info: images/q34.png  used on input line 584.
 (pdftex.def)             Requested size: 339.15822pt x 396.25078pt.
  [18
 
@@ -1130,7 +1130,7 @@ Package pdftex.def Info: images/q34.png  used on input line 579.
 <images/q35.png, id=260, 752.8125pt x 582.175pt>
 File: images/q35.png Graphic file (type png)
 <use images/q35.png>
-Package pdftex.def Info: images/q35.png  used on input line 602.
+Package pdftex.def Info: images/q35.png  used on input line 607.
 (pdftex.def)             Requested size: 423.94617pt x 327.8635pt.
 
 
@@ -1138,11 +1138,11 @@ AED: lastpage setting LastPage
 [19
 
  <./images/q35.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 629.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 629.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 634.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 634.
  (./Assignment_2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 629.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 629.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 634.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 634.
 Package rerunfilecheck Info: File `Assignment_2.out' has not changed.
 (rerunfilecheck)             Checksum: 9A8F2E16C4DF09FDD6D28B1251A504FB;5345.
  ) 
@@ -1155,10 +1155,10 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  67i,11n,105p,903b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.6
-00pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx144
-0.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
-1000.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cti1095.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
+00pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm100
+0.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti
+1095.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+cbx1440.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
 c/ectt1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
 n/ec/ecrm1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
 ppen/ec/ecbx1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/j
@@ -1170,9 +1170,9 @@ cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Assignment_2.pdf (19 pages, 1269497 bytes).
+Output written on Assignment_2.pdf (19 pages, 1271232 bytes).
 PDF statistics:
- 684 PDF objects out of 1000 (max. 8388607)
+ 689 PDF objects out of 1000 (max. 8388607)
  250 compressed objects within 3 object streams
  42 named destinations out of 1000 (max. 500000)
  418 words of extra memory for PDF output out of 10000 (max. 10000000)
