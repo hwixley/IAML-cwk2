@@ -112,19 +112,19 @@
 
 
 
-  \begin{answerbox}{52em}
+  \begin{answerbox}{54em}
     \begin{center}
     \textbf{\underline{A grid to show the mean vectors for each class along with the}}\\
     \textbf{\underline{closest and furthest samples from these means}}
-    \vspace{0.4cm}\\
+    \vspace{0.2cm}\\
     \includegraphics[width=0.8\textwidth]{images/q12.png}
     \end{center}
     \footnotesize{
-    There is an interesting trend amongst the closest and furthest samples for each given class in the dataset. Notice that all the closest samples are a subtle gray, and in contrast all the furthest samples are very dark (almost black) or very light (almost white). We can deduce that this is due to the fact that the intensely dark/light colour pixels magnify the difference (and thus Euclidean distance) between corresponding pixel values in different samples.\\
+    There is an interesting trend amongst the closest and furthest samples for each given class in the dataset. Notice that all the 'closest' samples are a subtle gray, and in contrast all the 'furthest' samples are very dark or very light (eg. the class 4 samples). We can deduce that this is due to the fact that the intensely dark/light colour pixels magnify the difference (and thus Euclidean distance) between corresponding pixel values in different samples.\\
 \\
-    This is a very important observation as it highlights the significance of colour intensity when calculating the similarity between different samples. This colour intensity could ultimately skew the performance of our classifier when predicting the type of clothing for uniquely dark/light samples. This is especially problematic if a given class (piece of clothing) is more likely to be dark/light as this will make it more likely to classify dark/light samples from other classes.\\
+    This is a very important observation as it highlights the significance of colour intensity when calculating the similarity between different samples. This colour intensity could ultimately skew the performance of our classifier when predicting the type of clothing for uniquely dark/light samples. This is especially problematic if a given class (type of clothing) is more likely to be dark/light as this will make it more likely to classify uniquely dark/light samples from other classes.\\
 \\
-    To prevent this issue, given that we are classifying the type of clothing and not the colour, we could either use a method specifically for classifying shapes (segmentation) or we could normalize the colour intensity of samples upon input (normalize the values of the pixels to be within a certain range).}
+    To prevent this issue, given that we are classifying the type of clothing and not the colour, we could either use a method specifically for classifying shapes (image segmentation) or we could normalize the colour intensity of samples upon input (normalize the values of the pixels to be within a certain range).}
   \end{answerbox}
 
 
