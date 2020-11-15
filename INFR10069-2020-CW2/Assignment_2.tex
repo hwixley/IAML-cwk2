@@ -171,22 +171,20 @@
 
       \begin{answerbox}{54em}
         \begin{center}
-         \includegraphics[width=0.83\textwidth]{images/q14.png}
+         \includegraphics[width=0.74\textwidth]{images/q14.png}
         \end{center}
         \footnotesize{
         $\mathbf{Cumulative}$ $\mathbf{explained}$ $\mathbf{variance}$ $\mathbf{ratio = \frac{\sum_{k=1}^{K}\sigma_{k}^{2}}{\sigma_{total}^{2}}}$\\ 
 \\
         \emph{**We must note that that the total variance as described in the equation above is the cumulative explained variance from the original 784 dimension dataset, and thereby is fixed for all ratio calculations where $1 \geq K \leq 784$.}\\
 \\
-        This cumulative explained variance ratio represents the 
-        
-        Given that the explained variance ratio for a given principal component represents the variance of that principal component divided by the total variance, we can see that the results of this graph showing the relationship between the cumulative explained ratio and the number of principal components (K) are as expected.\\
+        This cumulative explained variance ratio ultimately represents how much detail our new data retains from our original data. The reason the 'detail' of our data is measured by variance is because variance measures the average difference between all samples in the data, we want data with a high variance as this allows for more accurate classification.\\
 \\
-        Although PCA chooses dimensions with maximum variance, as we increase the number of dimensions (K) we automatically increase the number of variances (which have been maximised by PCA) we must summate. We also know that the total variance is fixed throughout all different values of K so the value of all cumulative variance ratios are purely dependent on ther respective explained variance ratios. Thereby, it is evident as illustrated by the plot that the number of principal components (K) is directly proportional to the cumulative explained ratio in a hyperbolic fashion.\\
+        Given this information it is evident to see that this graphing model ultimately represents the relationship between the 'detail' in the data and the number of dimensions. This is very useful when you have high dimensional data that you want to reduce whilst still keeping as much 'detail' in the data as possible.\\
 \\
-        This hyperbolic shape is due to the inversely proportional relationship between the number of dimensions (K) and the explained variance for each new dimension (dimension K). This is evident as PCA always chooses the dimensions that maximize variance, and thereby new dimensions will always have smaller explained variances than that of the other preceding K-1 dimensions. These ordered dimension variances ultimately give us the resultant smooth curve as shown above whose gradient slows down as we increase the value of K.\\
+        \textbf{We can see from the figure above that using just 100 dimensions (about 87.24\% less data) already secures roughly 91.17\% of the total cumulative variance from the original data.}\\
 \\
-        This graphing model is very useful in order to determine the optimal number of dimensions to reduce the data to whilst still retaining as much detail as possible (maximising cumulative variance). We can see here that using just 100 dimensions (about 87.24\% less data) already secures roughly 92\% of the total cumulative variance from the original data.
+        Choosing the optimal number of dimensions for a given dataset depends entirely on the context of the data/classification model, as this directly denotes how important the trade-off between the size of the data and the quality of the data is. For example, when working with critical data we can not afford to lose any quality thus we would prefer to not reduce the dimensions. However, reducing dimensions can be very useful for many supervised methods, making problems that are not linearly seperable into ones that are, and being able to visually represent high-dimensional data.
         }
       \end{answerbox}
   
