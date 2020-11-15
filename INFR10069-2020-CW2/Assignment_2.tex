@@ -184,7 +184,7 @@
 \\
         \textbf{We can see from the figure above that using just 100 dimensions (about 87.24\% less data) already secures roughly 91.17\% of the total cumulative variance from the original data.}\\
 \\
-        Choosing the optimal number of dimensions for a given dataset depends entirely on the context of the data/classification model, as this directly denotes how important the trade-off between the size of the data and the quality of the data is. For example, when working with critical data we can not afford to lose any quality thus we would prefer to not reduce the dimensions. However, reducing dimensions can be very useful for many supervised methods, making problems that are not linearly seperable into ones that are, and being able to visually represent high-dimensional data.
+        Choosing the optimal number of dimensions for a given dataset depends entirely on the context of the data/classification model, as this directly denotes how important the trade-off between the size of the data and the quality of the data is. For example, when working with critical data we can not afford to lose any quality thus we would prefer to not reduce the dimensions. However, reducing dimensions can be very useful for many supervised methods, making problems that are not linearly seperable into ones that are, reducing noise in the data, and being able to visually represent high-dimensional data.
         }
       \end{answerbox}
   
@@ -209,9 +209,13 @@
          \includegraphics[width=1\textwidth]{images/q151.png}
          \includegraphics[width=1\textwidth]{images/q152.png}
         \end{center}
-        Discuss your findings briefly...\\
-        We must note that these images are not distinct given they were calculated using the normalized dataset\\
-        ***Should show UNnormalized photos too!
+        These images represent the eigenvectors for each of their respective dimensions. Each of these eigenvectors has a direction and a corresponding eigenvalue. These are used for projecting data into new spaces.\\
+\\
+        What is useful is that we notice that many of the different clothing shapes are retained in these eigenvectors. In most of these images you can see the resemblances of most of the different clothing types from our dataset, however, what is truly interesting is the frequency and intensity of the different clothing shapes found amongst these. These factors are very important as these suggest what are the most significant features throughout all of our different classes for classification.\\
+\\
+        With regards to frequency, I am referring to the number of eigenvectors in which we can visibly see the resemblance of the different clothing types. For example, we can see in all of the images the resemblance of a long sleeved shirt. This is ul\\
+\\
+        With regards to the intensity of the different clothing shapes, I am referring to the most prominent/visible shapes for each eigenvector. For example, PC 1 shows the resemblance of a long sleeved shirt, PC 2 shows the resemblance of trousers, PC 3 shows the resemblance of a boot, and PC 4 shows the resemblance of a sneaker. This is important as these eigenvectors are used for projecting points into the new eigenspace.
       \end{answerbox}
   
 
