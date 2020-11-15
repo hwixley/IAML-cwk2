@@ -202,20 +202,22 @@
      } \label{Q1.disp.pca}
    
 
-      \begin{answerbox}{35em}
+      \begin{answerbox}{46em}
         \begin{center}
         \textbf{\underline{A grid to show the images of the first 10 principal components}}
         \vspace{0.3cm}\\
          \includegraphics[width=1\textwidth]{images/q151.png}
          \includegraphics[width=1\textwidth]{images/q152.png}
         \end{center}
+        \footnotesize{
         These images represent the eigenvectors for each of their respective dimensions. Each of these eigenvectors has a direction and a corresponding eigenvalue. These are used for projecting data into new spaces.\\
 \\
         What is useful is that we notice that many of the different clothing shapes are retained in these eigenvectors. In most of these images you can see the resemblances of most of the different clothing types from our dataset, however, what is truly interesting is the frequency and intensity of the different clothing shapes found amongst these. These factors are very important as these suggest what are the most significant features throughout all of our different classes for classification.\\
 \\
-        With regards to frequency, I am referring to the number of eigenvectors in which we can visibly see the resemblance of the different clothing types. For example, we can see in all of the images the resemblance of a long sleeved shirt. This is ul\\
+        With regards to the frequency of the different clothing shapes, I am referring to the number of eigenvectors in which we can visibly see the resemblance of the different clothing types. For example, in contrast to other clothing shapes, we can see in almost all of the images the resemblance of a long sleeved shirt. This ultimately suggests that this long sleeved shirt shape was most common from our training data. This is evident as illustrated by the class images in Q1.2 where classes 2 (pullover), 4 (coat) and 6 (shirt) all appear to take very similar shapes, resembling that of a long sleeved shirt.\\
 \\
-        With regards to the intensity of the different clothing shapes, I am referring to the most prominent/visible shapes for each eigenvector. For example, PC 1 shows the resemblance of a long sleeved shirt, PC 2 shows the resemblance of trousers, PC 3 shows the resemblance of a boot, and PC 4 shows the resemblance of a sneaker. This is important as these eigenvectors are used for projecting points into the new eigenspace.
+        With regards to the intensity of the different clothing shapes, I am referring to the most prominent/visible shapes for each eigenvector. For example, PC 1 shows the resemblance of a long sleeved shirt, PC 2 shows the resemblance of trousers, PC 3 shows the resemblance of a boot, and PC 4 shows the resemblance of a sneaker. This ultimately represents how the seperate dimensions in our dataset may be used predominantly for classifying certain classes. This makes perfect sense as this allows our model to apply different weightings to each dimension.
+}
       \end{answerbox}
   
 
