@@ -667,7 +667,18 @@
         Testing & Full & 15.811 & 16.895 & 16.704 & 15.19 & 10.787 \\ \hline
         \end{tabular}
         \end{center}
-        Discuss your findings...
+        }
+        \scriptsize{
+        The log-likelihood of a mixture model ultimately represents the probability of observing our data as a function of the model's parameters. Given this we know that the higher the per-sample average log-likelihood the better the accuracy of the model.\\
+\\
+        The only difference between these 2 models is the type of covariance matrix used. A full covariance matrix assumes data dependence and a diagonal covariance matrix assumes data independence. Thereby this graph is perfect for identifying if there are any relationships between variables in the data and choosing the optimal model for a given value of K.\\
+\\ 
+        As shown by the figure above we can see that the GMM model that uses the full covariance matrix has the best training accuracy by far, however, we can see this accuracy drops dramatically from $K > 3$ for the training data. We can attribute this to the fact that our model was overfit to our training data. This overfitting makes perfect sense due to the assumption of variable dependence. This assumed variable dependence ultimately makes our model far more susceptible for capturing false relationships between variables in the training dataset.\\
+\\
+        In contrast, the GMM model that uses the diagonal covariance matrix has a worse overall training accuracy, however, unlike for the full covariance model the testing accuracy does not drop as we increase K but rather stays consistent with it's respective training accuracy.
+\\
+\\
+        In conclusion, we can deduce that for this dataset the number of mixture components (K) is inversely proportional to the dependence between variables in the dataset. Such that for $K \geq 8$ our GMM scores better when assuming data is dependent and visa-versa for when assuming data is independent.
         }
       \end{answerbox}
   
