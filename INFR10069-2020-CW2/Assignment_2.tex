@@ -591,11 +591,15 @@
 
       \begin{answerbox}{52em}
         \includegraphics[width=1\textwidth]{images/q33.png}
+        \footnotesize{
+        This dendogram is very useful as it visually illustrates how each cluster from our dataset is composed and thus ultimately gives significant insight into the hierarchy of similarities between the classes in our data. This visualization makes it easy for us to identify the optimal linkage method based on the classes in our data. Once we have this optimal linkage we can use the resulting dendogram for determining the optimal number of clusters to fit to our data (typically we want a cluster for each class).\\
+\\
+        This clustering is not calculated by measuring the distance directly, but Ward linkage rather analyzes the variance of clusters and minimizes the total within-cluster variance of new cluster merges.\\
         \\
-        \\
-        This dendogram illustrates how each cluster from our dataset is composed and thus ultimately represents the hierarchy of similarities between the classes in our data. Instead of measuring the distance directly Ward linkage analyzes the variance of clusters.\\
-        \\
-        From this we can deduce that Italian and French have the most similar mean vectors and thereby are the most "similar" languages. In contrast we can see that Latvian has the most dissimilar mean vector from all other languages and thereby is the most "unique" language.
+        From this dendogram, we can see that Italian and French have the most similar mean vectors and thereby are the most "similar" languages. In contrast we can see that Arabic has the most dissimilar mean vector from all other languages given by it's clustering distance and thereby is the most "unique" language.\\
+\\
+        I believe a cut where distance $\approx 1.4$ (resulting in 3 clusters) would be most optimal due to the large merge clustering distance found after this cut.
+        }
       \end{answerbox}
   
 
