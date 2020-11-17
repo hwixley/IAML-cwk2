@@ -592,7 +592,7 @@
       \begin{answerbox}{52em}
         \includegraphics[width=1\textwidth]{images/q33.png}
         \footnotesize{
-        This dendogram is very useful as it visually illustrates how each cluster from our dataset is composed and thus ultimately gives significant insight into the hierarchy of similarities between the classes in our data. This visualization makes it easy for us to identify the optimal linkage method based on the classes in our data. Once we have this optimal linkage we can use the resulting dendogram for determining the optimal number of clusters to fit to our data (typically we want a cluster for each class).\\
+        This dendogram is very useful as it visually illustrates how each cluster from our dataset is composed and thus ultimately gives significant insight into the hierarchy of similarities between the classes in our data. This visualization makes it easy for us to determine the optimal number of clusters to fit to our data (ideally we want a cluster for each class to enable easy classification).\\
 \\
         This clustering is not calculated by measuring the distance directly, but Ward linkage rather analyzes the variance of clusters and minimizes the total within-cluster variance of new cluster merges.\\
         \\
@@ -622,7 +622,17 @@
         \begin{center}
         \includegraphics[width=0.8\textwidth]{images/q34.png}
         \end{center}
-        Discuss results briefly...
+        \footnotesize{
+        \emph{**The labels on all of these dendograms refer to the language that the given cluster center point came from.}\\
+\\
+        These dendograms are very useful as they make it easier for us to compare the results of varying linkage methods for hierarchical clustering on our data. This ultimately allows us to choose the method that prodcues the optimal results based on the classes in our data.\\
+\\
+        Ward linkage
+
+        Single linkage
+
+        Complete linkage
+        } 
       \end{answerbox}
   
 
