@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  18 NOV 2020 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  18 NOV 2020 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,7 +1098,7 @@ Package pdftex.def Info: images/q21.png  used on input line 387.
 
 
  <./images/q21.png>]
-<images/q22.png, id=209, 715.67375pt x 684.5575pt>
+<images/q22.png, id=208, 715.67375pt x 684.5575pt>
 File: images/q22.png Graphic file (type png)
 <use images/q22.png>
 Package pdftex.def Info: images/q22.png  used on input line 414.
@@ -1106,7 +1106,7 @@ Package pdftex.def Info: images/q22.png  used on input line 414.
  [10
 
  <./images/q22.png>]
-<images/q23.png, id=216, 495.8525pt x 415.5525pt>
+<images/q23.png, id=215, 495.8525pt x 415.5525pt>
 File: images/q23.png Graphic file (type png)
 <use images/q23.png>
 Package pdftex.def Info: images/q23.png  used on input line 435.
@@ -1119,7 +1119,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 435--439
 [11
 
  <./images/q23.png>]
-<images/q24.png, id=224, 495.8525pt x 415.5525pt>
+<images/q24.png, id=223, 495.8525pt x 415.5525pt>
 File: images/q24.png Graphic file (type png)
 <use images/q24.png>
 Package pdftex.def Info: images/q24.png  used on input line 458.
@@ -1132,7 +1132,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 458--462
 [12
 
  <./images/q24.png>]
-<images/q25.png, id=231, 626.34pt x 661.47125pt>
+<images/q25.png, id=230, 626.34pt x 661.47125pt>
 File: images/q25.png Graphic file (type png)
 <use images/q25.png>
 Package pdftex.def Info: images/q25.png  used on input line 486.
@@ -1288,8 +1288,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 711.
  (./Assignment_2.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 711.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 711.
-Package rerunfilecheck Info: File `Assignment_2.out' has not changed.
-(rerunfilecheck)             Checksum: 9A8F2E16C4DF09FDD6D28B1251A504FB;5345.
+
+
+Package rerunfilecheck Warning: File `Assignment_2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Assignment_2.out':
+(rerunfilecheck)             Before: 79D9E4D7575E8B652C6F55BDF25E8D81;5339
+(rerunfilecheck)             After:  9A8F2E16C4DF09FDD6D28B1251A504FB;5345.
  ) 
 Here is how much of TeX's memory you used:
  24309 strings out of 483183
@@ -1327,9 +1334,9 @@ pe1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb>
-Output written on Assignment_2.pdf (19 pages, 1340755 bytes).
+Output written on Assignment_2.pdf (19 pages, 1340328 bytes).
 PDF statistics:
- 865 PDF objects out of 1000 (max. 8388607)
+ 864 PDF objects out of 1000 (max. 8388607)
  289 compressed objects within 3 object streams
  42 named destinations out of 1000 (max. 500000)
  418 words of extra memory for PDF output out of 10000 (max. 10000000)
