@@ -89,10 +89,12 @@
     
 
       \begin{answerbox}{13em}
-        \textbf{\large{\underline{First 4 elements of the first and last samples from the}}}\\
-        \textbf{\large{\underline{normalized training dataset Xtrn\_nm}}}
+        \begin{center}
+        \textbf{\underline{First 4 elements of the first and last samples from the}}\\
+        \textbf{\underline{normalized training dataset Xtrn\_nm}}
         \vspace{0.3cm}\\
          \includegraphics[width=1\textwidth]{images/q11.png}
+        \end{center}
       \end{answerbox}
   
 
@@ -119,7 +121,9 @@
     \vspace{0.2cm}\\
     \includegraphics[width=0.8\textwidth]{images/q12.png}
     \end{center}
-    \footnotesize{
+    \footnotesize{\textbf{\underline{Analysis of our results}}}\\
+\\
+    \scriptsize{
     There is an interesting trend amongst the closest and furthest samples for each given class in the dataset. Notice that all the 'closest' samples are a subtle gray, and in contrast all the 'furthest' samples are very dark or very light (eg. the class 4 samples). We can deduce that this is due to the fact that the intensely dark/light colour pixels magnify the difference (and thus Euclidean distance) between corresponding pixel values in different samples.\\
 \\
     This is a very important observation as it highlights the significance of colour intensity when calculating the similarity between different samples. This colour intensity could ultimately skew the performance of our classifier when predicting the type of clothing for uniquely dark/light samples. This is especially problematic if a given class (type of clothing) is more likely to be dark/light as this will make it more likely to classify uniquely dark/light samples from other classes.\\
@@ -143,9 +147,10 @@
 
     \begin{answerbox}{15em}
         \begin{center}
-        \textbf{\large{\underline{Calculating the variances of the projected data in Xtrn\_nm}}}\\
-        \textbf{\large{\underline{for the first five principal components}}}\\
+        \textbf{\underline{Calculating the variances of the projected data in Xtrn\_nm}}\\
+        \textbf{\underline{for the first five principal components}}\\
         \vspace{0.5cm}
+        \footnotesize{
         \begin{tabular}{ |c|c| } \hline
         \textbf{Principal Component \#} & \textbf{Explained Variance} \\ \hline
         1 & 19.81 \\
@@ -154,6 +159,7 @@
         4 & 3.382 \\
         5 & 2.625 \\\hline
         \end{tabular}
+        }
         \end{center}
     \end{answerbox}
     
@@ -171,12 +177,15 @@
 
       \begin{answerbox}{54em}
         \begin{center}
-         \includegraphics[width=0.74\textwidth]{images/q14.png}
+         \includegraphics[width=0.9\textwidth]{images/q14.png}
         \end{center}
-        \footnotesize{
+        \scriptsize{
         $\mathbf{Cumulative}$ $\mathbf{explained}$ $\mathbf{variance}$ $\mathbf{ratio = \frac{\sum_{k=1}^{K}\sigma_{k}^{2}}{\sigma_{total}^{2}}}$\\ 
 \\
         \emph{**We must note that that the total variance as described in the equation above is the cumulative explained variance from the original 784 dimension dataset, and thereby is fixed for all ratio calculations where $1 \leq K \leq 784$.}\\
+\\
+\\
+        \textbf{\footnotesize{\underline{Analysis of our results}}}\\
 \\
         This cumulative explained variance ratio ultimately represents how much detail our new data retains from our original data. The reason the 'detail' of our data is measured by variance is because variance measures the average difference between all samples in the data, we want data with a high variance as this allows for more accurate classification.\\
 \\
@@ -209,10 +218,11 @@
          \includegraphics[width=1\textwidth]{images/q151.png}
          \includegraphics[width=1\textwidth]{images/q152.png}
         \end{center}
-        \footnotesize{
+        \scriptsize{
         \emph{**These images represent the eigenvectors for each of their respective dimensions. Each of these eigenvectors has a direction and a corresponding eigenvalue. These are used for projecting data into new spaces.}\\
 \\
-        \textbf{\underline{Analysis of our results}}\\
+\\
+        \textbf{\footnotesize{\underline{Analysis of our results}}}\\
 \\
         What is useful is that we notice that many of the different clothing shapes are retained in these eigenvectors. In most of these images you can see the resemblances of most of the different clothing types from our dataset, however, what is truly interesting is the frequency and intensity of the different clothing shapes found amongst these. These factors are very important as these suggest what are the most significant features throughout all of our different classes for classification.\\
 \\
@@ -242,11 +252,11 @@
 
       \begin{answerbox}{28em}
         \begin{center}
-        \large{\textbf{\underline{A table to show the RMSE between the original and the}}}\\
-        \large{\textbf{\underline{reconstructed version of the first sample for every}}}\\
-        \large{\textbf{\underline{class with varying numbers of PCA components (K)}}} \\
+        \textbf{\underline{A table to show the RMSE between the original and the reconstructed}}\\
+        \textbf{\underline{version of the first sample for every class with varying numbers}}\\
+        \textbf{\underline{of PCA components (K)}} \\
         \vspace{0.3cm}
-        \normalsize{*Each class sample is reconstructed by reducing the sample to K dimensions and then transforming it back to the original number of dimensions, this is all done via the sklearn PCA implementation.}\\
+        \footnotesize{*Each class sample is reconstructed by reducing the sample to K dimensions and then transforming it back to the original number of dimensions, this is all done via the sklearn PCA implementation.\\
         \vspace{0.5cm}
         \begin{tabular}{ |c|c|c|c|c|c| } \hline
             \textbf{RMSE} & K = 5 & K = 20 & K = 50 & K = 200 \\ \hline
@@ -262,6 +272,7 @@
             Class = 9 & 0.184 & 0.151 & 0.122 & 0.072 \\
             \hline
         \end{tabular}
+        }
         \end{center}
       \end{answerbox}
   
@@ -287,8 +298,8 @@
         \vspace{0.3cm}\\
          \includegraphics[width=0.8\textwidth]{images/q17.png}
         \end{center}
-        \footnotesize{
-        \textbf{\underline{Analysis of our results}}\\
+        \footnotesize{\textbf{\underline{Analysis of our results}}}\\
+        \scriptsize{
 \\
         As expected the reconstructed samples become more detailed as we increase the value of K. This is evident due to the increased number of dimensions to retain detail within the data.\\
 \\
