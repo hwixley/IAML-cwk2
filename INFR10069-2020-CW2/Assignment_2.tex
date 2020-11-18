@@ -433,9 +433,12 @@
 
       \begin{answerbox}{50em}
          \includegraphics[width=1\textwidth]{images/q23.png}
+        \textbf{\footnotesize{\underline{Analysis of our results}}}\\
+\\
+        \scriptsize{
         I found the class distribution in this figure to be very surprising for these decision regions especially given we have balanced classes in the training dataset. We can see there is no region for class 9 and that the regions for class 0, class 1, and class 7 are very small.\\
 \\
-        We can deduce this is due to the fact that PCA is unsupervised so it does nto know anything about the class labels of our data. This ultimately means PCA can pick directions that make it hard to seperate classes. Furthermore, PCA should mainly be used for variables which are strongly correlated as this correlation means that when reducing the dimensions of our data it will hold more detail.
+        We can deduce this is due to the fact that PCA is unsupervised so it does nto know anything about the class labels of our data. This ultimately means PCA can pick directions that make it hard to seperate classes. Furthermore, PCA should mainly be used for variables which are strongly correlated as this correlation means that when reducing the dimensions of our data it will hold more detail.}
       \end{answerbox}
   
 
@@ -456,9 +459,13 @@
 
       \begin{answerbox}{50em}
          \includegraphics[width=1\textwidth]{images/q24.png}
+        \textbf{\footnotesize{\underline{Analysis of our results}}}\\
+\\
+        \scriptsize{
         These regions are far better than the ones we found in Q2.3 this is evident by the far more even class distribution. What is particularly interesting is how similar these regions are in comparison to collection of classes in the 2D-PCA plane of our training dataset in Q1.8.\\
 \\
         These regions are in the same structure as the ones found in Q2.3 however each has much more significant size regions. We can deduce this difference is due to the fact that our data is not linearly seperable and thus a SVM model with a nonlinear kernel (RBF) can seperate the data (and thus classify) more effectively than a logistic regression model.
+        }
       \end{answerbox}
   
 
@@ -488,7 +495,7 @@
         \\
         \textbf{\underline{Optimal accuracy achieved and it's respective value of C:}} \\
         \\
-        $Accuracy \approx 85.65 \%$  where  $C = 10^{\frac{4}{3}}$
+        \footnotesize{$Accuracy \approx 85.65 \%$  where  $C = 10^{\frac{4}{3}}$}
       \end{answerbox}
   
 
@@ -508,10 +515,10 @@
        
 
       \begin{answerbox}{10em}
-        \large{\textbf{\underline{Classification accuracy of our trained SVM model using the}}} \\
-        \large{\textbf{\underline{optimal value of $\mathbf{C}$ found ($\mathbf{10^{\frac{4}{3}}}$)}}}\\
+        \textbf{\underline{Classification accuracy of our trained SVM model using the optimal}} \\
+        \textbf{\underline{value of $\mathbf{C}$ found ($\mathbf{10^{\frac{4}{3}}}$)}}\\
         \\
-        \normalsize{
+        \footnotesize{
         Training accuracy $\approx 90.842\%$\\
         Testing accuracy $\approx 87.65\%$
         }
@@ -557,7 +564,7 @@
    
 
       \begin{answerbox}{35em}
-        \textbf{\large{\underline{Metrics for our trained k-means clustering model}}}
+        \textbf{\underline{Metrics for our trained k-means clustering model}}
         \vspace{0.3cm}\\
          \includegraphics[width=1\textwidth]{images/q31.png}
       \end{answerbox}
@@ -583,9 +590,13 @@
 
       \begin{answerbox}{51em}
          \includegraphics[width=1\textwidth]{images/q32.png}
+        \footnotesize{\textbf{\underline{Analysis of our results}}}\\
+\\
+        \scriptsize{
         Are the mean vectors and clusters similar? Discuss your findings briefly... \\
         We can see that most of the mean class vectors and data lie in the same general region of the plot with a few clusters more sparsely decorated. We can imagine these sparse clusters account for outliers in our data given that all the mean classes are in the same general region. \\
         \\There is a cluster directly on top of class 4 which exemplifies the accuracy of this clustering. We can imagine this class must have quite consistent data samples throughout the dataset meaning small distances between samples and ultimately a very accurate cluster center.
+        }
       \end{answerbox}
   
 
@@ -606,7 +617,9 @@
 
       \begin{answerbox}{52em}
         \includegraphics[width=1\textwidth]{images/q33.png}
-        \footnotesize{
+        \footnotesize{\textbf{\underline{Analysis of our results}}}\\
+\\
+        \scriptsize{
         This dendogram is very useful as it visually illustrates how each cluster from our dataset is composed and thus ultimately gives significant insight into the hierarchy of similarities between the classes in our data. This visualization makes it easy for us to determine the optimal number of clusters to fit to our data (ideally we want a cluster for each class to enable easy classification).\\
 \\
         This clustering is not calculated by measuring the distance directly, but Ward linkage rather analyzes the variance of clusters and minimizes the total within-cluster variance of new cluster merges.\\
@@ -633,12 +646,15 @@
 
    
 
-      \begin{answerbox}{52em}
+      \begin{answerbox}{54em}
         \begin{center}
         \includegraphics[width=0.8\textwidth]{images/q34.png}
         \end{center}
         \scriptsize{
         \emph{**The labels on all of these dendograms refer to the language that the given cluster center point came from.}\\
+\\
+\\
+        \textbf{\footnotesize{\underline{Analysis of our results}}}\\
 \\
         These dendograms are very useful as they make it easier for us to compare the results of varying linkage methods for hierarchical clustering on our data. This ultimately allows us to choose the method that prodcues the optimal results based on the classes in our data.\\
 \\
@@ -667,10 +683,10 @@
 
 
 
-      \begin{answerbox}{52.5em}
+      \begin{answerbox}{52.8em}
         \scriptsize{
         \begin{center}
-        \includegraphics[width=0.85\textwidth]{images/q35.png}
+        \includegraphics[width=0.82\textwidth]{images/q35.png}
         \end{center}
         \begin{center}
         \textbf{Table to show the average per-sample log-likelihood scores} \\
@@ -684,8 +700,8 @@
         Testing & Full & 15.811 & 16.895 & 16.704 & 15.19 & 10.787 \\ \hline
         \end{tabular}
         \end{center}
-        %}
-        %\scriptsize{
+        \textbf{\footnotesize{\underline{Analysis of our results}}}\\
+\\
         The log-likelihood of a mixture model ultimately represents the probability of observing our data as a function of the model's parameters. Given this we know that the higher the per-sample average log-likelihood the better the accuracy of the model.\\
 \\
         The only difference between these 2 models is the type of covariance matrix used. A full covariance matrix assumes data dependence and a diagonal covariance matrix assumes data independence. Thereby this graph is perfect for identifying if there are any relationships between variables in the data and choosing the optimal model for a given value of K.\\
