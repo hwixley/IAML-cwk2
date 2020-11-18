@@ -460,14 +460,14 @@
      } \label{Q2.4}
    
 
-      \begin{answerbox}{50em}
+      \begin{answerbox}{43em}
          \includegraphics[width=1\textwidth]{images/q24.png}
         \textbf{\footnotesize{\underline{Analysis of our results}}}\\
 \\
         \scriptsize{
-        These regions are far better than the ones we found in Q2.3 this is evident by the far more even class distribution. What is particularly interesting is how similar these regions are in comparison to collection of classes in the 2D-PCA plane of our training dataset in Q1.8.\\
+        These regions are far better than the ones we found in Q2.3 this is evident by the far more even class distribution. What is particularly exciting is how similar the layout of these decision regions are in comparison to the distribution of classes for our normalized training dataset once projected onto the 2D-PCA plane (that we found in Q1.8).\\
 \\
-        These regions are in the same structure as the ones found in Q2.3 however each has much more significant size regions. We can deduce this difference is due to the fact that our data is not linearly seperable and thus a SVM model with a nonlinear kernel (RBF) can seperate the data (and thus classify) more effectively than a logistic regression model.
+        These decision regions have a very similar structure as the ones found in Q2.3, however, we can see they are far more well distributed as illustrated by the much more consistent size of regions, and inclusion of all the classes. We can deduce this difference is due to the fact that our data was made not linearly seperable by the PCA dimensionality reduction (as discussed in Q2.3), thus we can expect a SVM model with a nonlinear kernel (RBF) to seperate the data (and thus classify) far more effectively than a linear one such as our logistic regression model.
         }
       \end{answerbox}
   
