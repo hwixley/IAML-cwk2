@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  18 NOV 2020 12:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  18 NOV 2020 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1303,9 +1303,9 @@ ts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1
 amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb>
-Output written on Assignment_2.pdf (19 pages, 1357343 bytes).
+Output written on Assignment_2.pdf (19 pages, 1357654 bytes).
 PDF statistics:
- 893 PDF objects out of 1000 (max. 8388607)
+ 894 PDF objects out of 1000 (max. 8388607)
  296 compressed objects within 3 object streams
  42 named destinations out of 1000 (max. 500000)
  418 words of extra memory for PDF output out of 10000 (max. 10000000)
