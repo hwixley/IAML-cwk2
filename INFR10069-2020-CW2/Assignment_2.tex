@@ -431,14 +431,17 @@
 
    
 
-      \begin{answerbox}{50em}
+      \begin{answerbox}{46em}
          \includegraphics[width=1\textwidth]{images/q23.png}
         \textbf{\footnotesize{\underline{Analysis of our results}}}\\
 \\
         \scriptsize{
-        I found the class distribution in this figure to be very surprising for these decision regions especially given we have balanced classes in the training dataset. We can see there is no region for class 9 and that the regions for class 0, class 1, and class 7 are very small.\\
+        I found the class distribution in this figure to be very surprising for these decision regions, especially given we have balanced classes in the training dataset. We can see there is no region for class 9 and that the regions for class 0, class 1, and class 7 are very small.\\
 \\
-        We can deduce this is due to the fact that PCA is unsupervised so it does not know anything about the class labels of our data. This ultimately means PCA can pick directions that make it hard to seperate classes. Furthermore, PCA should mainly be used for variables which are strongly correlated as this correlation means that when reducing the dimensions of our data it will hold more detail.}
+        We can deduce this is due to the fact that PCA can pick directions that make it hard to seperate classes, this is because PCA is unsupervised so it does not know anything about the class labels of our data. Thereby there is a very good possibility this dimensionality reduction made the resulting transformed data not linearly seperable. This can be very problematic when using a linear model for classification like we are here (logistic regression model).\\
+\\
+        A solution to such a problem would be through either using LDA (Linear Discriminant Analysis) for dimensionality reduction instead of PCA, or choosing a classifier that is not linear (such as an SVM with an RBF kernel). I believe using LDA for dimensionality reduction would be the best solution in this context as in contrast to PCA this is a supervised technique and thereby reduces dimensions in order to maximize class seperability and thus we would not need to change our classifier. 
+        }
       \end{answerbox}
   
 
