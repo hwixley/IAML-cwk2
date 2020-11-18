@@ -652,9 +652,11 @@
 
 
 
-      \begin{answerbox}{50em}
-         \includegraphics[width=1\textwidth]{images/q35.png}
-        \footnotesize{
+      \begin{answerbox}{52.5em}
+        \scriptsize{
+        \begin{center}
+        \includegraphics[width=0.85\textwidth]{images/q35.png}
+        \end{center}
         \begin{center}
         \textbf{Table to show the average per-sample log-likelihood scores} \\
         \textbf{for varying parameters of a GMM} \\
@@ -667,8 +669,8 @@
         Testing & Full & 15.811 & 16.895 & 16.704 & 15.19 & 10.787 \\ \hline
         \end{tabular}
         \end{center}
-        }
-        \scriptsize{
+        %}
+        %\scriptsize{
         The log-likelihood of a mixture model ultimately represents the probability of observing our data as a function of the model's parameters. Given this we know that the higher the per-sample average log-likelihood the better the accuracy of the model.\\
 \\
         The only difference between these 2 models is the type of covariance matrix used. A full covariance matrix assumes data dependence and a diagonal covariance matrix assumes data independence. Thereby this graph is perfect for identifying if there are any relationships between variables in the data and choosing the optimal model for a given value of K.\\
