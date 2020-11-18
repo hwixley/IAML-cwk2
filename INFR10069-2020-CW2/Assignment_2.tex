@@ -422,7 +422,9 @@
 
       \begin{answerbox}{50em}
          \includegraphics[width=1\textwidth]{images/q23.png}
-        Discuss your findings briefly...
+        I found the class distribution in this figure to be very surprising for these decision regions especially given we have balanced classes in the training dataset. We can see there is no region for class 9 and that the regions for class 0, class 1, and class 7 are very small.\\
+\\
+        We can deduce this is due to the fact that PCA is unsupervised so it does nto know anything about the class labels of our data. This ultimately means PCA can pick directions that make it hard to seperate classes. Furthermore, PCA should mainly be used for variables which are strongly correlated as this correlation means that when reducing the dimensions of our data it will hold more detail.
       \end{answerbox}
   
 
