@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  22 NOV 2020 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.6)  22 NOV 2020 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -855,7 +855,7 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 File: images/q11.png Graphic file (type png)
 <use images/q11.png>
 Package pdftex.def Info: images/q11.png  used on input line 96.
-(pdftex.def)             Requested size: 423.94617pt x 71.42068pt.
+(pdftex.def)             Requested size: 381.54895pt x 64.27832pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -914,83 +914,47 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 File: images/q14.png Graphic file (type png)
 <use images/q14.png>
 Package pdftex.def Info: images/q14.png  used on input line 180.
-(pdftex.def)             Requested size: 381.54895pt x 339.7546pt.
+(pdftex.def)             Requested size: 254.37029pt x 226.50307pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--198
-
- []
-
-
-Underfull \hbox (badness 1062) in paragraph at lines 183--198
-\T1/cmr/m/it/8 **We must note that that the to-tal vari-ance as de-scribed in t
-he equa-tion above is the cu-mu-la-tive ex-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--198
+Underfull \hbox (badness 10000) in paragraph at lines 183--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--198
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--198
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--198
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--198
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--198
+Underfull \hbox (badness 10000) in paragraph at lines 183--190
 
  []
 
 [4
 
  <./images/q14.png>]
-<images/q151.png, id=177, 1025.8325pt x 213.79875pt>
+<images/q151.png, id=168, 1025.8325pt x 213.79875pt>
 File: images/q151.png Graphic file (type png)
 <use images/q151.png>
-Package pdftex.def Info: images/q151.png  used on input line 218.
-(pdftex.def)             Requested size: 423.94617pt x 88.35617pt.
-<images/q152.png, id=178, 1023.825pt x 214.8025pt>
+Package pdftex.def Info: images/q151.png  used on input line 210.
+(pdftex.def)             Requested size: 309.47888pt x 64.49896pt.
+<images/q152.png, id=169, 1023.825pt x 214.8025pt>
 File: images/q152.png Graphic file (type png)
 <use images/q152.png>
-Package pdftex.def Info: images/q152.png  used on input line 219.
-(pdftex.def)             Requested size: 423.94617pt x 88.94472pt.
+Package pdftex.def Info: images/q152.png  used on input line 211.
+(pdftex.def)             Requested size: 309.47888pt x 64.92961pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--233
+Underfull \hbox (badness 10000) in paragraph at lines 214--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--233
+Underfull \hbox (badness 10000) in paragraph at lines 214--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--233
+Underfull \hbox (badness 10000) in paragraph at lines 214--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--233
+Underfull \hbox (badness 10000) in paragraph at lines 214--224
 
  []
 
@@ -999,177 +963,167 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--233
  <./images/q151.png> <./images/q152.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 249.
+(hyperref)                removing `math shift' on input line 240.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 249.
+(hyperref)                removing `math shift' on input line 240.
 
 [6
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 289.
+(hyperref)                removing `math shift' on input line 280.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 289.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern 3.26212pt
-(hyperref)                removed on input line 289.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 289.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 280.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 3.26212pt
-(hyperref)                removed on input line 289.
+(hyperref)                removed on input line 280.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 289.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 280.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 3.26212pt
-(hyperref)                removed on input line 289.
+(hyperref)                removed on input line 280.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 289.
+(hyperref)                removing `\leavevmode@ifvmode' on input line 280.
 
-<images/q17.png, id=187, 919.435pt x 1029.8475pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 3.26212pt
+(hyperref)                removed on input line 280.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 280.
+
+<images/q17.png, id=179, 919.435pt x 1029.8475pt>
 File: images/q17.png Graphic file (type png)
 <use images/q17.png>
-Package pdftex.def Info: images/q17.png  used on input line 299.
-(pdftex.def)             Requested size: 360.35683pt x 403.63461pt.
+Package pdftex.def Info: images/q17.png  used on input line 290.
+(pdftex.def)             Requested size: 356.11322pt x 398.88893pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--309
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--309
+Underfull \hbox (badness 10000) in paragraph at lines 292--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--309
+Underfull \hbox (badness 10000) in paragraph at lines 292--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--300
 
  []
 
 [7
 
  <./images/q17.png>]
-<images/q18.png, id=195, 608.2725pt x 636.3775pt>
+<images/q18.png, id=187, 608.2725pt x 636.3775pt>
 File: images/q18.png Graphic file (type png)
 <use images/q18.png>
-Package pdftex.def Info: images/q18.png  used on input line 330.
+Package pdftex.def Info: images/q18.png  used on input line 321.
 (pdftex.def)             Requested size: 317.95963pt x 332.65636pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--343
+Underfull \hbox (badness 10000) in paragraph at lines 323--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--343
+Underfull \hbox (badness 10000) in paragraph at lines 323--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--343
+Underfull \hbox (badness 10000) in paragraph at lines 323--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--343
+Underfull \hbox (badness 10000) in paragraph at lines 323--334
 
  []
 
 [8
 
  <./images/q18.png>]
-<images/q21.png, id=202, 713.66624pt x 685.56125pt>
+<images/q21.png, id=194, 713.66624pt x 685.56125pt>
 File: images/q21.png Graphic file (type png)
 <use images/q21.png>
-Package pdftex.def Info: images/q21.png  used on input line 389.
-(pdftex.def)             Requested size: 423.94617pt x 407.24974pt.
+Package pdftex.def Info: images/q21.png  used on input line 380.
+(pdftex.def)             Requested size: 296.76102pt x 285.06749pt.
  [9
 
 
  <./images/q21.png>]
-<images/q22.png, id=208, 715.67375pt x 684.5575pt>
+<images/q22.png, id=200, 715.67375pt x 684.5575pt>
 File: images/q22.png Graphic file (type png)
 <use images/q22.png>
-Package pdftex.def Info: images/q22.png  used on input line 416.
-(pdftex.def)             Requested size: 423.94617pt x 405.51491pt.
+Package pdftex.def Info: images/q22.png  used on input line 407.
+(pdftex.def)             Requested size: 296.76102pt x 283.85626pt.
  [10
 
  <./images/q22.png>]
-<images/q23.png, id=215, 495.8525pt x 415.5525pt>
+<images/q23.png, id=207, 495.8525pt x 415.5525pt>
 File: images/q23.png Graphic file (type png)
 <use images/q23.png>
-Package pdftex.def Info: images/q23.png  used on input line 437.
-(pdftex.def)             Requested size: 423.94617pt x 355.29474pt.
+Package pdftex.def Info: images/q23.png  used on input line 429.
+(pdftex.def)             Requested size: 296.76102pt x 248.70567pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--447
+Underfull \hbox (badness 10000) in paragraph at lines 431--438
 
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 437--447
+Underfull \hbox (badness 1009) in paragraph at lines 431--438
 \T1/cmr/m/n/8 I found the class dis-tri-bu-tion in this fig-ure to be very sur-
 pris-ing for these de-ci-sion re-gions, es-pe-cially
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--447
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 437--447
+Underfull \hbox (badness 10000) in paragraph at lines 431--438
 
  []
 
 [11
 
  <./images/q23.png>]
-<images/q24.png, id=223, 495.8525pt x 415.5525pt>
+<images/q24.png, id=215, 495.8525pt x 415.5525pt>
 File: images/q24.png Graphic file (type png)
 <use images/q24.png>
-Package pdftex.def Info: images/q24.png  used on input line 466.
-(pdftex.def)             Requested size: 423.94617pt x 355.29474pt.
+Package pdftex.def Info: images/q24.png  used on input line 458.
+(pdftex.def)             Requested size: 296.76102pt x 248.70567pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--474
+Underfull \hbox (badness 10000) in paragraph at lines 460--467
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--474
+Underfull \hbox (badness 10000) in paragraph at lines 460--467
 
  []
 
 [12
 
  <./images/q24.png>]
-<images/q25.png, id=230, 626.34pt x 661.47125pt>
+<images/q25.png, id=222, 626.34pt x 661.47125pt>
 File: images/q25.png Graphic file (type png)
 <use images/q25.png>
-Package pdftex.def Info: images/q25.png  used on input line 498.
-(pdftex.def)             Requested size: 423.94617pt x 447.73549pt.
+Package pdftex.def Info: images/q25.png  used on input line 492.
+(pdftex.def)             Requested size: 254.37029pt x 268.64128pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--504
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 498--504
+Underfull \hbox (badness 10000) in paragraph at lines 494--497
 
  []
 
@@ -1178,21 +1132,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 498--504
  <./images/q25.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 517.
+(hyperref)                removing `math shift' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 517.
+(hyperref)                removing `math shift' on input line 510.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 523--530
+Underfull \hbox (badness 10000) in paragraph at lines 516--523
 
  []
 
 [14
 
 ]
-Overfull \hbox (34.33551pt too wide) in paragraph at lines 568--568
+Overfull \hbox (34.33551pt too wide) in paragraph at lines 561--561
 |\T1/cmr/bx/n/12 3.1 \T1/cmr/m/n/12 (3 points) Ap-ply k-means clus-ter-ing on \
 T1/cmtt/m/n/12 Xtrn \T1/cmr/m/n/12 for $\OML/cmm/m/it/12 k \OT1/cmr/m/n/12 = 22
 $\T1/cmr/m/n/12 , where we use [][]sklearn.cluster.KMeans[][]
@@ -1200,137 +1154,137 @@ $\T1/cmr/m/n/12 , where we use [][]sklearn.cluster.KMeans[][]
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 568.
+(hyperref)                removing `math shift' on input line 561.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 568.
+(hyperref)                removing `math shift' on input line 561.
 
-<images/q31.png, id=247, 816.04875pt x 538.01pt>
+<images/q31.png, id=240, 816.04875pt x 538.01pt>
 File: images/q31.png Graphic file (type png)
 <use images/q31.png>
-Package pdftex.def Info: images/q31.png  used on input line 574.
+Package pdftex.def Info: images/q31.png  used on input line 567.
 (pdftex.def)             Requested size: 423.94617pt x 279.5041pt.
 [15
 
 
  <./images/q31.png>]
-<images/q32.png, id=253, 624.3325pt x 636.3775pt>
+<images/q32.png, id=246, 618.31pt x 527.9725pt>
 File: images/q32.png Graphic file (type png)
 <use images/q32.png>
-Package pdftex.def Info: images/q32.png  used on input line 597.
-(pdftex.def)             Requested size: 423.94617pt x 432.12894pt.
+Package pdftex.def Info: images/q32.png  used on input line 591.
+(pdftex.def)             Requested size: 267.08815pt x 228.07104pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--607
+Underfull \hbox (badness 10000) in paragraph at lines 593--602
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--607
+Underfull \hbox (badness 10000) in paragraph at lines 593--602
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--602
 
  []
 
 [16
 
  <./images/q32.png>]
-<images/q33.png, id=259, 627.34375pt x 453.695pt>
+<images/q33.png, id=255, 627.34375pt x 453.695pt>
 File: images/q33.png Graphic file (type png)
 <use images/q33.png>
-Package pdftex.def Info: images/q33.png  used on input line 626.
-(pdftex.def)             Requested size: 423.94617pt x 306.61166pt.
+Package pdftex.def Info: images/q33.png  used on input line 622.
+(pdftex.def)             Requested size: 288.28027pt x 208.48763pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--638
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 626--638
+Underfull \hbox (badness 10000) in paragraph at lines 624--635
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--638
+Underfull \hbox (badness 10000) in paragraph at lines 624--635
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--638
+Underfull \hbox (badness 10000) in paragraph at lines 624--635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--635
 
  []
 
 [17
 
  <./images/q33.png>]
-<images/q34.png, id=266, 608.2725pt x 710.655pt>
+<images/q34.png, id=262, 608.2725pt x 710.655pt>
 File: images/q34.png Graphic file (type png)
 <use images/q34.png>
-Package pdftex.def Info: images/q34.png  used on input line 658.
-(pdftex.def)             Requested size: 339.15822pt x 396.25078pt.
+Package pdftex.def Info: images/q34.png  used on input line 655.
+(pdftex.def)             Requested size: 296.76102pt x 346.71672pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--674
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 661--674
+Underfull \hbox (badness 10000) in paragraph at lines 658--671
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--674
+Underfull \hbox (badness 10000) in paragraph at lines 658--671
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--674
+Underfull \hbox (badness 10000) in paragraph at lines 658--671
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--674
+Underfull \hbox (badness 10000) in paragraph at lines 658--671
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--674
+Underfull \hbox (badness 10000) in paragraph at lines 658--671
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 658--671
 
  []
 
 [18
 
  <./images/q34.png>]
-<images/q35.png, id=272, 752.8125pt x 582.175pt>
+<images/q35.png, id=268, 752.8125pt x 582.175pt>
 File: images/q35.png Graphic file (type png)
 <use images/q35.png>
-Package pdftex.def Info: images/q35.png  used on input line 696.
-(pdftex.def)             Requested size: 347.63896pt x 268.8431pt.
+Package pdftex.def Info: images/q35.png  used on input line 693.
+(pdftex.def)             Requested size: 254.37029pt x 196.71098pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 710--723
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 710--723
+Underfull \hbox (badness 10000) in paragraph at lines 707--720
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 710--723
+Underfull \hbox (badness 10000) in paragraph at lines 707--720
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 710--723
+Underfull \hbox (badness 10000) in paragraph at lines 707--720
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 710--723
+Underfull \hbox (badness 10000) in paragraph at lines 707--720
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 707--720
 
  []
 
@@ -1339,24 +1293,24 @@ AED: lastpage setting LastPage
 [19
 
  <./images/q35.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 734.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 734.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 731.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 731.
  (./Assignment_2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 734.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 734.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 731.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 731.
 Package rerunfilecheck Info: File `Assignment_2.out' has not changed.
 (rerunfilecheck)             Checksum: 9A8F2E16C4DF09FDD6D28B1251A504FB;5345.
  ) 
 Here is how much of TeX's memory you used:
- 24299 strings out of 483183
- 490317 string characters out of 5966292
+ 24298 strings out of 483183
+ 490298 string characters out of 5966292
  786970 words of memory out of 5000000
- 38784 multiletter control sequences out of 15000+600000
+ 38783 multiletter control sequences out of 15000+600000
  550349 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 67i,11n,105p,903b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0800.6
-00pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti080
+ 67i,11n,105p,903b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0800.6
+00pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx080
 0.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
 1000.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
 crm0800.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
@@ -1368,23 +1322,20 @@ r/jknappen/ec/ecbx1200.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk/lj
 four/jknappen/ec/ecbx1728.600pk> </home/hwixley/.texlive2019/texmf-var/fonts/pk
 /ljfour/jknappen/ec/ecrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex
-7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb>
-Output written on Assignment_2.pdf (19 pages, 1326477 bytes).
+amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Assignment_2.pdf (19 pages, 1294634 bytes).
 PDF statistics:
- 815 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
+ 793 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
  42 named destinations out of 1000 (max. 500000)
  418 words of extra memory for PDF output out of 10000 (max. 10000000)
 

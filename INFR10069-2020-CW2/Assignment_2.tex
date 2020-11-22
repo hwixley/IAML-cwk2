@@ -88,12 +88,12 @@
     } \label{Q1.1}
     
 
-      \begin{answerbox}{12em}
+      \begin{answerbox}{10em}
         \begin{center}
         \textbf{\underline{First 4 elements of the first and last samples from the}}\\
         \textbf{\underline{normalized training dataset Xtrn\_nm}}
         \vspace{0.3cm}\\
-         \includegraphics[width=1\textwidth]{images/q11.png}
+         \includegraphics[width=0.9\textwidth]{images/q11.png}
         \end{center}
       \end{answerbox}
   
@@ -114,7 +114,7 @@
 
 
 
-  \begin{answerbox}{50.75em}
+  \begin{answerbox}{52em}
     \begin{center}
     \textbf{\underline{A grid to show the mean vectors for each class along with the}}\\
     \textbf{\underline{closest and furthest samples from these means}}
@@ -145,7 +145,7 @@
 
 
 
-    \begin{answerbox}{12em}
+    \begin{answerbox}{15em}
         \begin{center}
         \textbf{\underline{Calculating the variances of the projected data in Xtrn\_nm}}\\
         \textbf{\underline{for the first five principal components}}\\
@@ -175,21 +175,13 @@
      } \label{Q1.plot.pca.variance}
    
 
-      \begin{answerbox}{54em}
+      \begin{answerbox}{30em}
         \begin{center}
-         \includegraphics[width=0.9\textwidth]{images/q14.png}
+         \includegraphics[width=0.6\textwidth]{images/q14.png}
         \end{center}
         \scriptsize{
-        $\mathbf{Cumulative}$ $\mathbf{explained}$ $\mathbf{variance}$ $\mathbf{ratio = \frac{\sum_{k=1}^{K}\sigma_{k}^{2}}{\sigma_{total}^{2}}}$\\ 
-\\
-        \emph{**We must note that that the total variance as described in the equation above is the cumulative explained variance from the original 784 dimension dataset, and thereby is fixed for all ratio calculations where $1 \leq K \leq 784$.}\\
-\\
-\\
         \textbf{\footnotesize{\underline{Analysis of our results}}}\\
-\\
-        This cumulative explained variance ratio ultimately represents how much detail our new data retains from our original data. The reason the 'detail' of our data is measured by variance is because variance measures the average difference between all samples in the data, we want data with a high variance as this allows for more accurate classification.\\
-\\
-        Given this information it is evident to see that this graphing model ultimately represents the relationship between the 'detail' in the data and the number of dimensions. This is very useful when you have high dimensional data that you want to reduce whilst still keeping as much 'detail' in the data as possible.\\
+        This cumulative explained variance ratio ultimately represents how much detail our new data retains from our original data. The reason the 'detail' of our data is measured by variance is because variance measures the average difference between all samples in the data, we want data with a high variance as this allows for more accurate classification. Given this information it is evident to see that this graphing model ultimately represents the relationship between the 'detail' in the data and the number of dimensions. This is very useful when you have high dimensional data that you want to reduce whilst still keeping as much 'detail' in the data as possible.\\
 \\
         \textbf{We can see from the figure above that using just 100 dimensions (about 87.24\% less data) already secures about 91.17\% of the total cumulative variance from the original data.}\\
 \\
@@ -211,16 +203,15 @@
      } \label{Q1.disp.pca}
    
 
-      \begin{answerbox}{40.5em}
+      \begin{answerbox}{35em}
         \begin{center}
         \textbf{\underline{A grid to show the images of the first 10 principal components}}
-        \vspace{0.3cm}\\
-         \includegraphics[width=1\textwidth]{images/q151.png}
-         \includegraphics[width=1\textwidth]{images/q152.png}
+        \vspace{0.25cm}\\
+         \includegraphics[width=0.73\textwidth]{images/q151.png}
+         \includegraphics[width=0.73\textwidth]{images/q152.png}
         \end{center}
         \scriptsize{
         \emph{**These images represent the eigenvectors for each of their respective dimensions. Each of these eigenvectors has a direction and a corresponding eigenvalue. These are used for projecting data into new spaces.}\\
-\\
 \\
         \textbf{\footnotesize{\underline{Analysis of our results}}}\\
 \\
@@ -250,7 +241,7 @@
 
      
 
-      \begin{answerbox}{23em}
+      \begin{answerbox}{25em}
         \begin{center}
         \textbf{\underline{A table to show the RMSE between the original and the reconstructed}}\\
         \textbf{\underline{version of the first sample for every class with varying numbers}}\\
@@ -291,12 +282,12 @@
 
    
 
-      \begin{answerbox}{52.4em}
+      \begin{answerbox}{52em}
         \begin{center}
         \textbf{\underline{A grid to show the images of the reconstructed class samples for}}\\
         \textbf{\underline{varying amounts of dimension reductions (K)}}
         \vspace{0.3cm}\\
-         \includegraphics[width=0.85\textwidth]{images/q17.png}
+         \includegraphics[width=0.84\textwidth]{images/q17.png}
         \end{center}
         \footnotesize{\textbf{\underline{Analysis of our results}}}\\
         \scriptsize{
@@ -325,7 +316,7 @@
 
    
 
-      \begin{answerbox}{51.75em}
+      \begin{answerbox}{40em}
         \begin{center}
         \includegraphics[width=0.75\textwidth]{images/q18.png}
         \end{center}
@@ -381,12 +372,12 @@
 
    
 
-      \begin{answerbox}{40em}
+      \begin{answerbox}{30em}
         \begin{center}
         \textbf{\underline{Confusion matrices to show the classification accuracy of our trained}}\\
         \textbf{\underline{multinomial logistic regression model on the test set}}
         \vspace{0.3cm}\\
-         \includegraphics[width=1\textwidth]{images/q21.png}
+         \includegraphics[width=0.7\textwidth]{images/q21.png}
         \end{center}
       \end{answerbox}
   
@@ -408,12 +399,12 @@
 
    
 
-      \begin{answerbox}{40em}
+      \begin{answerbox}{30em}
         \begin{center}
         \textbf{\underline{Confusion matrices to show the classification accuracy of our trained}}\\
         \textbf{\underline{SVM model on the test set}}
         \vspace{0.3cm}\\
-         \includegraphics[width=1\textwidth]{images/q22.png}
+         \includegraphics[width=0.7\textwidth]{images/q22.png}
         \end{center}
       \end{answerbox}
   
@@ -433,14 +424,14 @@
 
    
 
-      \begin{answerbox}{45.5em}
-         \includegraphics[width=1\textwidth]{images/q23.png}
+      \begin{answerbox}{35em}
+        \begin{center}
+         \includegraphics[width=0.7\textwidth]{images/q23.png}
+        \end{center}
         \textbf{\footnotesize{\underline{Analysis of our results}}}\\
 \\
         \scriptsize{
-        I found the class distribution in this figure to be very surprising for these decision regions, especially given we have balanced classes in the training dataset. We can see there is no region for class 9 and that the regions for class 0, class 1, and class 7 are very small.\\
-\\
-        We can deduce this is due to the fact that PCA can pick directions that make it hard to seperate classes, this is because PCA is unsupervised so it does not know anything about the class labels of our data. Thereby there is a very good possibility this dimensionality reduction made the resulting transformed data not linearly seperable. This can be very problematic when using a linear model for classification like we are here (logistic regression model).\\
+        I found the class distribution in this figure to be very surprising for these decision regions, especially given we have balanced classes in the training dataset. We can see there is no region for class 9 and that the regions for class 0, class 1, and class 7 are very small. We can deduce this is due to the fact that PCA can pick directions that make it hard to seperate classes, this is because PCA is unsupervised. Thereby there is a very good possibility this dimensionality reduction made the resulting transformed data not linearly seperable. This can be very problematic when using a linear model for classification like we are here (logistic regression model).\\
 \\
         A solution to such a problem would be through either using LDA (Linear Discriminant Analysis) for dimensionality reduction instead of PCA, or choosing a classifier that is not linear (such as an SVM with an RBF kernel). I believe using LDA for dimensionality reduction would be the best solution in this context as in contrast to PCA this is a supervised technique and thereby reduces dimensions in order to maximize class seperability and thus we would not need to change our classifier. 
         }
@@ -462,8 +453,10 @@
      } \label{Q2.4}
    
 
-      \begin{answerbox}{43em}
-         \includegraphics[width=1\textwidth]{images/q24.png}
+      \begin{answerbox}{35em}
+        \begin{center}
+         \includegraphics[width=0.7\textwidth]{images/q24.png}
+        \end{center}
         \textbf{\footnotesize{\underline{Analysis of our results}}}\\
 \\
         \scriptsize{
@@ -494,10 +487,10 @@
 
    
 
-      \begin{answerbox}{45em}
-        \includegraphics[width=1\textwidth]{images/q25.png}
-        \\
-        \\
+      \begin{answerbox}{30em}
+        \begin{center}
+        \includegraphics[width=0.6\textwidth]{images/q25.png}
+        \end{center}
         \textbf{\underline{Optimal accuracy achieved and it's respective value of C:}} \\
         \\
         \footnotesize{$Accuracy \approx 85.65 \%$  where  $C = 10^{\frac{4}{3}}$}
@@ -519,7 +512,7 @@
 
        
 
-      \begin{answerbox}{8em}
+      \begin{answerbox}{10em}
         \textbf{\underline{Classification accuracy of our trained SVM model using the optimal}} \\
         \textbf{\underline{value of $\mathbf{C}$ found ($\mathbf{10^{\frac{4}{3}}}$)}}\\
         \\
@@ -568,7 +561,7 @@
      } \label{Q3.1}
    
 
-      \begin{answerbox}{28em}
+      \begin{answerbox}{35em}
         \textbf{\underline{Metrics for our trained k-means clustering model}}
         \vspace{0.3cm}\\
          \includegraphics[width=1\textwidth]{images/q31.png}
@@ -593,8 +586,10 @@
 
    
 
-      \begin{answerbox}{51.4em}
-         \includegraphics[width=1\textwidth]{images/q32.png}
+      \begin{answerbox}{35em}
+        \begin{center}
+         \includegraphics[width=0.63\textwidth]{images/q32.png}
+        \end{center}
         \footnotesize{\textbf{\underline{Analysis of our results}}}\\
 \\
         \scriptsize{
@@ -622,8 +617,10 @@
 
      
 
-      \begin{answerbox}{43em}
-        \includegraphics[width=1\textwidth]{images/q33.png}
+      \begin{answerbox}{35em}
+        \begin{center}
+        \includegraphics[width=0.68\textwidth]{images/q33.png}
+        \end{center}
         \footnotesize{\textbf{\underline{Analysis of our results}}}\\
 \\
         \scriptsize{
@@ -653,9 +650,9 @@
 
    
 
-      \begin{answerbox}{54em}
+      \begin{answerbox}{50em}
         \begin{center}
-        \includegraphics[width=0.8\textwidth]{images/q34.png}
+        \includegraphics[width=0.7\textwidth]{images/q34.png}
         \end{center}
         \scriptsize{
         \emph{**The labels on all of these dendograms refer to the language that the given cluster center point came from.}\\
@@ -690,10 +687,10 @@
 
 
 
-      \begin{answerbox}{52.8em}
+      \begin{answerbox}{30em}
         \scriptsize{
         \begin{center}
-        \includegraphics[width=0.82\textwidth]{images/q35.png}
+        \includegraphics[width=0.6\textwidth]{images/q35.png}
         \end{center}
         \begin{center}
         \textbf{Table to show the average per-sample log-likelihood scores} \\
