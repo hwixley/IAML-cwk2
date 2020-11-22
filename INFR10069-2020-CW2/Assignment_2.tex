@@ -620,7 +620,7 @@
 
      
 
-      \begin{answerbox}{52em}
+      \begin{answerbox}{43em}
         \includegraphics[width=1\textwidth]{images/q33.png}
         \footnotesize{\textbf{\underline{Analysis of our results}}}\\
 \\
@@ -629,9 +629,9 @@
 \\
         This clustering is not calculated by measuring the distance directly, but Ward linkage rather analyzes the variance of clusters and minimizes the total within-cluster variance of new cluster merges.\\
         \\
-        From this dendogram, we can see that Italian and French have the most similar mean vectors and thereby are the most "similar" languages. In contrast we can see that Arabic has the most dissimilar mean vector from all other languages given by it's clustering distance and thereby is the most "unique" language.\\
+        From this dendogram, we can see that Italian and French have the most similar mean vectors given they have the smallest clustering distance and thereby are the most "similar" languages. In contrast we can see that Arabic has the most dissimilar mean vector from all other languages given it has the largest clustering distance and thereby is the most "unique" language.\\
 \\
-      I believe a cut where distance $\approx 0.85$ (resulting in 5 clusters) would be most optimal due to the large merge clustering distance found after this cut, and also due to the fact we have lots of classes (22) and thereby we would prefer more clusters to represent more detail in our data.
+        If we had to choose an optimal number of clusters I believe a cut where distance $\approx 0.85$ (resulting in 5 clusters) would be most optimal due to the large merge clustering distance found after this cut, and also due to the fact we have lots of classes (22) meaning we would prefer more clusters to represent more detail in our data.
         }
       \end{answerbox}
   
@@ -661,9 +661,9 @@
 \\
         \textbf{\footnotesize{\underline{Analysis of our results}}}\\
 \\
-        These dendograms are very useful as they make it easier for us to compare the results of varying linkage methods for hierarchical clustering on our data. This ultimately allows us to choose the method that prodcues the optimal results based on the classes in our data.\\
+        These dendograms are very useful as they make it easier for us to compare the results of varying linkage methods for hierarchical clustering on our data. This ultimately allows us to choose the method that produces the optimal results based on the classes in our data.\\
 \\
-        We can see that in all of these dendograms that there is a isolated cluster for language 19 and 5. This suggests that this cluster is the most dissimimilar to all others among all different linkage criterion.\\
+        We can see that in all of these dendograms there is an isolated cluster for language 19 and 5. This suggests that this cluster is the most dissimimilar to all others among all different linkage criterion.\\
 \\
         I believe single linkage is the least useful criterion in this context because of it's disproportionally large red cluster. The distances between all of the language cluster centers in this red section are on average very small (as illustrated by the scale on the x-axis) which make it far less useful as it does not seperate the different classes in a meaningful way.\\
 \\
