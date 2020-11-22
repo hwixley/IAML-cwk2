@@ -291,12 +291,12 @@
 
    
 
-      \begin{answerbox}{49.5em}
+      \begin{answerbox}{52.4em}
         \begin{center}
         \textbf{\underline{A grid to show the images of the reconstructed class samples for}}\\
         \textbf{\underline{varying amounts of dimension reductions (K)}}
         \vspace{0.3cm}\\
-         \includegraphics[width=0.9\textwidth]{images/q17.png}
+         \includegraphics[width=0.85\textwidth]{images/q17.png}
         \end{center}
         \footnotesize{\textbf{\underline{Analysis of our results}}}\\
         \scriptsize{
@@ -305,7 +305,7 @@
 \\
         PCA reduces dataset dimensions by choosing dimensions which maximize the variance in the data, this is evident to see as the reconstructed samples with small K highlight the more promiment features from their respective original samples.\\
 \\
-        What I found particularly interesting is that for K=5 the reconstructed class 8 sample appears to have taken the shape of a shoe (from a bag), and the reconstructed class 3 sample appears to have taken the shape of a pair of trousers (from a dress). We can imagine the lost detail in our data from PCA ultimately made the 5D samples appear to be closer to different classes, thus upon reconstruction PCA added detail similar to these 'more likely' classes.}
+        What I found particularly interesting is that for K=5 the reconstructed class 8 sample appears to have taken the shape of a shoe (from a bag), and the reconstructed class 3 sample appears to have taken the shape of a pair of trousers (from a dress). We can imagine the lost detail in our data from PCA ultimately made the reconstruction of 5D samples more similar to different (and thus incorrect) classes. This problem is due to the fact that PCA is unsupervised, a good solution to this would be to instead use a supervised dimensionality reduction method such as LDA.}
       \end{answerbox}
   
 
