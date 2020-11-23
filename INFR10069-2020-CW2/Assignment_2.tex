@@ -589,14 +589,16 @@
         \begin{center}
          \includegraphics[width=0.63\textwidth]{images/q32.png}
         \end{center}
-        \footnotesize{\textbf{\underline{Analysis of our results}}}\\
-\\
+ %       \footnotesize{\textbf{\underline{Analysis of our results}}}\\
+%\\
         \scriptsize{
         We can see that most of the mean class vectors and clusters lie in the same general region of the plot with a few clusters more sparsely decorated. We can imagine these sparse clusters account for outliers in our data given that all the mean classes are in the same general region. \\
 \\
         There is a cluster directly on top of class 4 which exemplifies the accuracy of this clustering. Although we cannot assume this cluster center was composed using purely data in this class alone,  we can imagine this class must have quite consistent data samples (low variance) throughout the dataset meaning small distances between samples and ultimately a very accurate cluster center.\\
 \\
-        What I found particularly interesting is the closely congregated collection of cluster centers where $-0.5 \leq PC2 \leq 0$, these lie just below the majority of the mean class vectors. I believe this is due to the fact that unlike the cluster centers the mean class vectors have been skewed by outliers. This is evident given the large amount of cluster centers with $PC2 \geq 0.5$. This is important to note, as means can be a misleading metric. This is due to the fact that they can be skewed greatly by outliers and they have no way of showing us the range of our data.
+        What I found particularly interesting is the closely grouped collection of cluster centers where $-0.5 \leq PC2 \leq 0$, these lie just below the majority of the mean class vectors. I believe this is due to the fact that unlike the cluster centers the mean class vectors have been skewed by outliers. This is evident given the large amount of cluster centers with $PC2 \geq 0.5$.\\
+\\
+        Given these clusters do not align with all the classes individually, we could rather use a smaller value of K (< 22) to find more meaningful subpopulations in the data and correlations between classes.
         }
       \end{answerbox}
   
