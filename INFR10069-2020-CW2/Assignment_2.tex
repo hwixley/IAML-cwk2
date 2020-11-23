@@ -696,7 +696,7 @@
         \end{center}
         \begin{center}
         \textbf{Table to show the average per-sample log-likelihood scores for varying GMM parameters}\\
-        \vspace{0.1cm}
+        %\vspace{0.1cm}
         \begin{tabular}{ |c|c|c|c|c|c|c| } \hline
         \textbf{Language 0 data} & \textbf{$\mathbf{\Sigma}$ type} & \textbf{K = 1} & \textbf{K = 3} & \textbf{K = 5} & \textbf{K = 10} & \textbf{K = 15} \\ \hline
         Training & Full & \textbf{\textcolor{OliveGreen}{16.394}} & \textbf{\textcolor{OliveGreen}{18.002}} & \textbf{\textcolor{OliveGreen}{19.117}} & \textbf{\textcolor{OliveGreen}{21.031}} & \textbf{\textcolor{OliveGreen}{22.816}} \\
@@ -705,7 +705,8 @@
         Testing & Diagonal & 13.843 & 15.041 & 15.828 & \textbf{\textcolor{OliveGreen}{16.57}} & \textbf{\textcolor{OliveGreen}{16.921}} \\ \hline
         \end{tabular}
         \end{center}
-        We can deduce K is directly proportional to the accuracy of the model given the data is assumed to be independent (diagonal covariance). However 
+        Here the scores of testing data is far more representative of model accuracy than training data as this shows whether our model has been overfitted or not (we can see this is the case with the full covariance model's scores). Thus we will just analyse these testing models.\\
+        From these we can deduce K is directly proportional to the accuracy of the model when the data is assumed to be independent (diagonal covariance). However, when this data is assumed to be dependent (full covariance) the accuracy is optimal at K=5 and decreases for $K \to \infty$ and $K \to 1$.
         %\textbf{\footnotesize{\underline{Analysis of our results}}}\\
 %        The log-likelihood of a mixture model ultimately represents the probability of observing our data as a function of the model's parameters. Given this we know that the higher the per-sample average log-likelihood the better the accuracy of the model.\\
 %\\
