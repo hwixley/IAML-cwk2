@@ -592,17 +592,15 @@
 
       \begin{answerbox}{35em}
         \begin{center}
-         \includegraphics[width=0.63\textwidth]{images/q32labelled.png}
+         \includegraphics[width=0.625\textwidth]{images/q32labelled.png}
         \end{center}
  %       \footnotesize{\textbf{\underline{Analysis of our results}}}\\
 %\\
         \scriptsize{
         As expected, we can see that most of the mean class vectors and clusters lie in the same general region of the plot with a few clusters more sparsely decorated. We can imagine these sparse clusters account for outliers in our data given that all the mean classes are in the same general region. \\
 \\
-        We can see that a few of these clusters are very close to certain class means. Firstly, 
-        There is a cluster directly on top of class 4 which exemplifies the accuracy of this clustering. Although we cannot assume this cluster center was composed using purely data in this class alone,  we can imagine this class must have quite consistent data samples (low variance) throughout the dataset meaning small distances between samples and ultimately a very accurate cluster center.\\
-\\
-        What I found particularly interesting is the closely grouped collection of cluster centers where $-0.5 \leq PC2 \leq 0$, these lie just below the majority of the mean class vectors. I believe this is due to the fact that unlike the cluster centers the mean class vectors have been skewed by outliers. This is evident given the large amount of cluster centers with $PC2 \geq 0.5$.\\
+        We can see that a few of these cluster centers are very close to certain class means. Firstly, the 4 cluster centers surrounding classes 9, 7, and 20, of which we can see two of these being especially close to class 20 with one even overlappping, and the other two being especially close to class 9. Secondly, the cluster center aligned directly on top of class 4. These observations exemplify the accuracy of this clustering and the nature of the data in these classes. Although we cannot assume these cluster centers were composed using purely data in these classes alone, we can imagine the samples from these classes may dominate the data that make up these clusters. This ultimately suggests that these classes must have quite consistent samples (low variance) throughout the dataset as this results in small distances between samples and thus very close cluster centers to the means.\\
+        \\What I found particularly interesting is the closely grouped collection of cluster centers where $-0.5 \leq PC2 \leq 0$, these lie just below the majority of the mean class vectors and almost mimick the linear trend of the means (from class 6 to 3). I believe this is due to the fact that unlike the cluster centers the mean class vectors have been skewed by outliers. This is evident given the large amount of cluster centers with $PC2 \geq 0.5$.\\
 \\
         %Given these clusters do not align with all the classes individually, we could rather use a smaller value of K (< 22) to find more meaningful subpopulations in the data and correlations between classes.
         }
@@ -665,7 +663,6 @@
         \scriptsize{
         \emph{**The labels on all of these dendograms refer to the language that the given cluster center point came from.}\\
 \\
-\\
         %\textbf{\footnotesize{\underline{Analysis of our results}}}\\
 %\\
         These dendograms are very useful as they make it easier for us to compare the results of varying linkage methods for hierarchical clustering on our data. This ultimately allows us to choose the method that produces the optimal results based on the classes in our data.\\
@@ -674,7 +671,7 @@
 \\
         I believe single linkage is the least useful criterion in this context because of it's disproportionally large red cluster. The distances between all of the language cluster centers in this red section are on average very small (as illustrated by the scale on the x-axis) which make it far less useful as it does not seperate the different classes in a meaningful way.\\
 \\
-        I believe Ward linkage is the most useful as it has the largest overall distance between language cluster centers this is evident by looking at the scale of the x-axis in comparison to single and complete linkage. This larger distance ultimately impies higher variance in the data based on this criterion and thus is far more useful for classification.
+        I believe Ward linkage is the most useful criterion here as it not only has the most even cluster distribution (illustrated by the relative size of the green, red, and blue clusters in comparison to single and complete linkage) but also the largest overall distance between language cluster centers (evident by looking at the scale of the x-axis in comparison to single and complete linkage). Firstly, this even cluster distribution is useful as it implies a more meaningful seperation between clusters and thus languages. Secondly, this larger distance ultimately impies higher variance in the data based on this criterion and thus is far more useful for classification. Thus it is evident to see the results produced by Ward's method are far more meaningful for classifying our data and finding meaningful subpopulations in our data.
         } 
       \end{answerbox}
   
