@@ -592,15 +592,15 @@
 
       \begin{answerbox}{35em}
         \begin{center}
-         \includegraphics[width=0.625\textwidth]{images/q32labelled.png}
+         \includegraphics[width=0.67\textwidth]{images/q32labelled.png}
         \end{center}
  %       \footnotesize{\textbf{\underline{Analysis of our results}}}\\
 %\\
         \scriptsize{
-        As expected, we can see that most of the mean class vectors and clusters lie in the same general region of the plot with a few clusters more sparsely decorated. We can imagine these sparse clusters account for outliers in our data given that all the mean classes are in the same general region. \\
+        As expected, we can see that most of the mean class vectors and clusters lie in the same general region of the plot with a few clusters more sparsely decorated. We can imagine these sparse clusters account for outliers in our data given that all the mean classes are in the same general region. These outliers explain the closely grouped collection of cluster centers where $-0.5 \leq PC2 \leq 0$. These lie just below the majority of the mean class vectors and almost mimick the linear trend of the means from class 6 to 3. Thus, we must note that these means may have been skewed by outliers evident by the large amount of cluster centers with $PC2 \geq 0.5$.\\
 \\
         We can see that a few of these cluster centers are very close to certain class means. Firstly, the 4 cluster centers surrounding classes 9, 7, and 20, of which we can see two of these being especially close to class 20 with one even overlappping, and the other two being especially close to class 9. Secondly, the cluster center aligned directly on top of class 4. These observations exemplify the accuracy of this clustering and the nature of the data in these classes. Although we cannot assume these cluster centers were composed using purely data in these classes alone, we can imagine the samples from these classes may dominate the data that make up these clusters. This ultimately suggests that these classes must have quite consistent samples (low variance) throughout the dataset as this results in small distances between samples and thus very close cluster centers to the means.\\
-        \\What I found particularly interesting is the closely grouped collection of cluster centers where $-0.5 \leq PC2 \leq 0$, these lie just below the majority of the mean class vectors and almost mimick the linear trend of the means (from class 6 to 3). I believe this is due to the fact that unlike the cluster centers the mean class vectors have been skewed by outliers. This is evident given the large amount of cluster centers with $PC2 \geq 0.5$.\\
+        %\\What I found particularly interesting is the closely grouped collection of cluster centers where $-0.5 \leq PC2 \leq 0$, these lie just below the majority of the mean class vectors and almost mimick the linear trend of the means (from class 6 to 3). I believe this is due to the fact that unlike the cluster centers the mean class vectors have been skewed by outliers. This is evident given the large amount of cluster centers with $PC2 \geq 0.5$.\\
 \\
         %Given these clusters do not align with all the classes individually, we could rather use a smaller value of K (< 22) to find more meaningful subpopulations in the data and correlations between classes.
         }
