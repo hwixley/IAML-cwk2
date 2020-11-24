@@ -242,6 +242,8 @@
      
 
       \begin{answerbox}{25em}
+        \definecolor{OliveGreen}{rgb}{0,0.6,0.1}
+        %\definecolor{
         \begin{center}
         \textbf{\underline{A table to show the RMSE between the original and the reconstructed}}\\
         \textbf{\underline{version of the first sample for every class with varying numbers}}\\
@@ -251,18 +253,21 @@
         \vspace{0.5cm}
         \begin{tabular}{ |c|c|c|c|c|c| } \hline
             \textbf{RMSE} & K = 5 & K = 20 & K = 50 & K = 200 \\ \hline
-            Class = 0 & 0.256 & 0.15 & 0.128 & 0.063 \\
-            Class = 1 & 0.198 & 0.14 & 0.095 & 0.037 \\
+            Class = 0 & \textbf{\textcolor{red}{0.256}} & 0.15 & 0.128 & 0.063 \\
+            Class = 1 & 0.198 & 0.14 & 0.095 & \textbf{\textcolor{OliveGreen}{0.037}} \\
             Class = 2 & 0.199 & 0.146 & 0.124 & 0.08 \\
             Class = 3 & 0.146 & 0.107 & 0.083 & 0.056 \\
-            Class = 4 & 0.118 & 0.103 & 0.088 & 0.045 \\
-            Class = 5 & 0.181 & 0.159 & 0.142 & 0.09 \\
-            Class = 6 & 0.129 & 0.096 & 0.072 & 0.045 \\
+            Class = 4 & \textbf{\textcolor{OliveGreen}{0.118}} & 0.103 & 0.088 & 0.045 \\
+            Class = 5 & 0.181 & \textbf{\textcolor{red}{0.159}} & \textbf{\textcolor{red}{0.142}} & 0.09 \\
+            Class = 6 & 0.129 & \textbf{\textcolor{OliveGreen}{0.096}} & \textbf{\textcolor{OliveGreen}{0.072}} & 0.045 \\
             Class = 7 & 0.166 & 0.128 & 0.106 & 0.063 \\
-            Class = 8 & 0.223 & 0.145 & 0.124 & 0.094 \\
+            Class = 8 & 0.223 & 0.145 & 0.124 & \textbf{\textcolor{red}{0.094}} \\
             Class = 9 & 0.184 & 0.151 & 0.122 & 0.072 \\
             \hline
-        \end{tabular}
+        \end{tabular}\\
+        \vspace{0.3cm}
+        \textbf{\textcolor{red}{Red}} = maximum RMSE\\
+        \textbf{\textcolor{OliveGreen}{Green}} = minimum RMSE
         }
         \end{center}
       \end{answerbox}
