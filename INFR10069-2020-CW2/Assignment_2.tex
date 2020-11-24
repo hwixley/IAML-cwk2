@@ -597,7 +597,7 @@
  %       \footnotesize{\textbf{\underline{Analysis of our results}}}\\
 %\\
         \scriptsize{
-        We can see that most of the mean class vectors and clusters lie in the same general region of the plot with a few clusters more sparsely decorated. We can imagine these sparse clusters account for outliers in our data given that all the mean classes are in the same general region. \\
+        As expected, we can see that most of the mean class vectors and clusters lie in the same general region of the plot with a few clusters more sparsely decorated. We can imagine these sparse clusters account for outliers in our data given that all the mean classes are in the same general region. \\
 \\
         There is a cluster directly on top of class 4 which exemplifies the accuracy of this clustering. Although we cannot assume this cluster center was composed using purely data in this class alone,  we can imagine this class must have quite consistent data samples (low variance) throughout the dataset meaning small distances between samples and ultimately a very accurate cluster center.\\
 \\
@@ -627,8 +627,8 @@
         \begin{center}
         \includegraphics[width=0.68\textwidth]{images/q33.png}
         \end{center}
-        \footnotesize{\textbf{\underline{Analysis of our results}}}\\
-\\
+        %\footnotesize{\textbf{\underline{Analysis of our results}}}\\
+%\\
         \scriptsize{
         This dendogram is very useful as it visually illustrates how each cluster from our dataset is composed and thus ultimately gives significant insight into the hierarchy of similarities between the classes in our data. This visualization makes it easy for us to determine the optimal number of clusters to fit to our data (ideally we want a cluster for each class to enable easy classification).\\
 \\
@@ -636,7 +636,8 @@
         \\
         From this dendogram, we can see that Italian and French have the most similar mean vectors given they have the smallest clustering distance and thereby are the most "similar" languages. In contrast we can see that Arabic has the most dissimilar mean vector from all other languages given it has the largest clustering distance and thereby is the most "unique" language.\\
 \\
-        If we had to choose an optimal number of clusters I believe a cut where distance $\approx 0.85$ (resulting in 5 clusters) would be most optimal due to the large merge clustering distance found after this cut, and also due to the fact we have lots of classes (22) meaning we would prefer more clusters to represent more detail in our data.
+        %If we had to choose an optimal number of clusters I believe a cut where distance $\approx 0.85$ (resulting in 5 clusters) would be most optimal due to the large merge clustering distance found after this cut, and also due to the fact we have lots of classes (22) meaning we would prefer more clusters to represent more detail in our data.
+        This dendogram also shows us unique subpopulations of classes in our dataset. For example, the cluster highlighted in green has a significant disparity from the rest of the clusters in our model illustrated by it's particularly large clustering distance. This disparity is not only useful for classification but further highlights the similarity between the cluster's classes 16, 12, 11 and 3.
         }
       \end{answerbox}
   
@@ -664,8 +665,8 @@
         \emph{**The labels on all of these dendograms refer to the language that the given cluster center point came from.}\\
 \\
 \\
-        \textbf{\footnotesize{\underline{Analysis of our results}}}\\
-\\
+        %\textbf{\footnotesize{\underline{Analysis of our results}}}\\
+%\\
         These dendograms are very useful as they make it easier for us to compare the results of varying linkage methods for hierarchical clustering on our data. This ultimately allows us to choose the method that produces the optimal results based on the classes in our data.\\
 \\
         We can see that in all of these dendograms there is an isolated cluster for language 19 and 5. This suggests that this cluster is the most dissimimilar to all others among all different linkage criterion.\\
